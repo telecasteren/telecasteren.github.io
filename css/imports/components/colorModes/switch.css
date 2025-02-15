@@ -1,0 +1,36 @@
+.toggleSwitch {
+  width: 200px;
+  padding: 20px;
+  margin: 0 0 20px 150px;
+  text-align: center;
+  cursor: pointer;
+  border: 2px solid var(--field-border);
+  transition: border-color 0.25s, transform 0.3s ease-in-out,
+    margin 0.3s ease-in-out;
+  animation: glow-border 2s infinite alternate;
+}
+
+.toggleSwitch:hover {
+  border-color: var(--accent-color);
+  transform: scale(1.02);
+}
+
+@keyframes glow-border {
+  0% {
+    border-color: var(--accent-color);
+  }
+  50% {
+    border-color: var(--glow-border);
+  }
+  100% {
+    border-color: var(--accent-color);
+  }
+}
+
+@media screen and (max-width: 778px) {
+  .toggleSwitch {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 20px auto;
+  }
+}

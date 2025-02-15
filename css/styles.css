@@ -1,0 +1,38 @@
+@import url(/css/imports/components/loader.css);
+@import url(/css/imports/components/messages/userMessage.css);
+@import url(/css/imports/components/navigation/menu.css);
+@import url(/css/imports/welcomeMessage.css);
+
+/* COLORMODE */
+@import url(/css/imports/components/colorModes/color-modes.css);
+@import url(/css/imports/components/colorModes/switch.css);
+
+/* CARDS */
+@import url(/css/imports/cards/cards.css);
+@import url(/css/imports/cards/video.css);
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  font-family: "Open sans", serif;
+  color: var(--primary-text);
+  background-color: var(--background);
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  margin: 4%;
+}
+
+.pageContent {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.fade-in {
+  opacity: 1;
+}

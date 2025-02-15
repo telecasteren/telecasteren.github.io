@@ -1,0 +1,22 @@
+:root {
+  --error-border: #b80000;
+  --error-background: #c10000a2;
+
+  --card-container: #8991e9;
+}
+
+body.dark {
+  --background: #242424;
+  --primary-text: #ffffffde;
+  --field-border: #cacaca;
+  --accent-color: #921a92;
+  --glow-border: #0044ff;
+}
+
+body.light {
+  --background: #ffffffde;
+  --primary-text: #000000;
+  --field-border: #242424;
+  --accent-color: #70e000;
+  --glow-border: #e8a30e;
+}
