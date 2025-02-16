@@ -1,9 +1,9 @@
 export function switchColorMode() {
   const colorModes = ["light", "dark"];
 
-  const systemDefault = window.matchMedia("prefers-color-scheme: light").matches
-    ? "light"
-    : "dark";
+  const systemDefault = window.matchMedia("prefers-color-scheme: dark").matches
+    ? "dark"
+    : "light";
 
   const storedColorMode = window.localStorage.getItem("colorMode");
   const initialColorMode = storedColorMode || systemDefault;

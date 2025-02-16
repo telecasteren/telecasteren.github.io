@@ -1,4 +1,4 @@
-# Portfolio by Tele Caster Nilsen
+# Tele Caster Nilsen's Portfolio
 
 ### Projects:
 
@@ -6,14 +6,11 @@ Here you can discover _some_ of the projects I have created and worked on the la
 
 ### Contact:
 
+- [My website - telecasternilsen](https://telecasternilsen.netlify.app/)
+- [GitHub profile](https://github.com/telecasteren)
 - [LinkedIn profile](https://www.linkedin.com/in/tele-caster-nilsen-7002b9249/)
-- [Full website - telecasternilsen](https://telecasternilsen.netlify.app/)
 
-**Resources:**
-
-https://stackoverflow.com/questions/14472690/use-webkit-playsinline-in-javascript
-
-## DOCUMENTATION:
+## CODE DOCUMENTATION:
 
 ### NAV hover effect on li elements:
 
@@ -51,3 +48,11 @@ And utilising a good old **if statement** for the initial path:
 `if (window.location.pathname.includes("index.html")) {
 window.location.replace("#home");
 }`
+
+---
+
+## Resources:
+
+- https://stackoverflow.com/questions/14472690/use-webkit-playsinline-in-javascript
+
+- https://stackoverflow.com/questions/37105745/how-can-i-history-pushstate-and-then-immediately-go-to-the-page-in-the-url-bar

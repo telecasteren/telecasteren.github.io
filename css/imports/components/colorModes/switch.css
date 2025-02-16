@@ -1,7 +1,7 @@
 .toggleSwitch {
   width: 200px;
   padding: 20px;
-  margin: 0 0 20px 150px;
+  margin: 0 0 20px 80px;
   text-align: center;
   cursor: pointer;
   border: 2px solid var(--field-border);

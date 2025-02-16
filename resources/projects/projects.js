@@ -5,10 +5,11 @@ const projects = [
     img_src: "/resources/images/unwired-blob-dark.png",
     img_alt: "A tech-blog website",
     proj_url: "https://unwired.netlify.app/",
+    git_repo: "https://github.com/telecasteren/project-exam-1-tele-c.git",
     proj_video:
       "/resources/videos/recording-unwired 2025-02-12 at 22.11.23.mov",
     description:
-      "Unwired is a tech blog created for my first-year exam during school, blending personal insights with industry discussions.",
+      "Unwired is a tech blog, blending personal experiences with industry insights. Created for my first-year of front-end studies exam.",
   },
 
   {
@@ -19,8 +20,9 @@ const projects = [
     proj_url: "https://gamehub-tele.netlify.app/",
     proj_video:
       "/resources/videos/Recording-gamehub 2025-02-13 at 06.46.20.mov",
+    git_repo: "https://github.com/telecasteren/gamehub.git",
     description:
-      "The first complete website I built, developed from design to deployment as an ongoing first-year project.",
+      "The first complete website I built, from design to development. An ongoing first-year project during my studies.",
   },
 
   {
@@ -31,8 +33,9 @@ const projects = [
     proj_url: "https://telecasteren-semester1.netlify.app/",
     proj_video:
       "/resources/videos/Recording-semester1-proj 2025-02-13 at 06.49.11.mov",
+    git_repo: "https://github.com/telecasteren/semesterProject1.git",
     description:
-      "A school project built from design to deployment using vanilla HTML and CSS.",
+      "A website for a family museum. This was a school project built with pure vanilla HTML and CSS.",
   },
 ];
 

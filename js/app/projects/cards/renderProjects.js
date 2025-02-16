@@ -1,11 +1,14 @@
 import { userMessage } from "/js/app/utils/userMessage.js";
 import { portfolioContent, pageContent } from "/js/app/utils/constants.js";
-import { cardsHtml } from "/js/app/components/cards/cardsHtml.js";
+import { cardsHtml } from "/js/app/projects/cards/cardsHtml.js";
+import { projectText } from "/js/app/projects/textContent.js";
 
 export function renderProjects(projects) {
   try {
     const container = document.createElement("div");
     container.className = "projectsContainer";
+
+    projectText();
 
     projects.forEach((project) => {
       const cards = cardsHtml(project);

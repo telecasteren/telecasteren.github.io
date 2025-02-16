@@ -1,5 +1,9 @@
 # TO DO
 
+## BUGS
+
+- Fix link to websites and repos. Overlay pointer events: none
+
 ### Projects
 
 - Give projects page more value
@@ -9,6 +13,6 @@
 
 ## ENHANCE THE PROJECTS
 
-- GAMEHUB
-- UNWIRED (only ReadMe file)
-- SEMESTER PROJECT 1
+- GAMEHUB: ------------(NOT FINISHED) Missing "Getting started" section in ReadMe file
+- UNWIRED ------------(NOT FINISHED) Missing "Getting started" section in ReadMe file
+- SEMESTER PROJECT 1: ------------(NOT STARTED)

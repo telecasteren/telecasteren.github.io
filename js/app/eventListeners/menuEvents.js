@@ -4,8 +4,8 @@ import {
   portfolioContent,
 } from "/js/app/utils/constants.js";
 import { welcomeMessage } from "/js/app/landing/welcomeMessage.js";
-import { renderProjects } from "/js/app/components/cards/renderProjects.js";
-import { playVideo } from "/js/app/components/cards/videoEvents.js";
+import { renderProjects } from "/js/app/projects/cards/renderProjects.js";
+import { playVideo } from "/js/app/projects/cards/videoEvents.js";
 import projects from "/resources/projects/projects.js";
 
 export function menuEvents() {
