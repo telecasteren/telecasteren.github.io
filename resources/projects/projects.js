@@ -9,7 +9,7 @@ const projects = [
     proj_video:
       "/resources/videos/recording-unwired 2025-02-12 at 22.11.23.mov",
     description:
-      "Unwired is a tech blog, blending personal experiences with industry insights. Created for my first-year of front-end studies exam.",
+      "Unwired is a tech blog that blends personal experiences with industry insights—served with a satirical twist.",
   },
 
   {
@@ -22,7 +22,7 @@ const projects = [
       "/resources/videos/Recording-gamehub 2025-02-13 at 06.46.20.mov",
     git_repo: "https://github.com/telecasteren/gamehub.git",
     description:
-      "The first complete website I built, from design to development. An ongoing first-year project during my studies.",
+      "An e-commerce website for the gaming community, bringing sellers and buyers together.",
   },
 
   {
@@ -35,7 +35,7 @@ const projects = [
       "/resources/videos/Recording-semester1-proj 2025-02-13 at 06.49.11.mov",
     git_repo: "https://github.com/telecasteren/semesterProject1.git",
     description:
-      "A website for a family museum. This was a school project built with pure vanilla HTML and CSS.",
+      "A website for a family museum. Built with pure vanilla HTML and CSS.",
   },
 ];
 

@@ -10,8 +10,8 @@ export function projectText() {
 
   const text = document.createElement("p");
   text.id = "featuredText";
-  text.innerText =
-    "PUT IN NICE TEXT HERE - These projects were designed and built during my front-end studies.";
+  text.innerText = `I've put together three of my bigger website projects. Hover over the images to get a sneak peak!
+    These were all developed during my front-end studies at Noroff School of Technology and Digital Media.`;
 
   textContainer.appendChild(title);
   textContainer.appendChild(text);
