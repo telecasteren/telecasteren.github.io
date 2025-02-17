@@ -16,6 +16,8 @@ export function menuEvents() {
   const projectsLi = document.getElementById("projectsLi");
 
   function loadHome() {
+    if (homeLi.classList.contains("active")) return;
+
     homeLi.classList.add("active");
     projectsLi.classList.remove("active");
 
@@ -26,6 +28,8 @@ export function menuEvents() {
   }
 
   function loadProjects() {
+    if (projectsLi.classList.contains("active")) return;
+
     projectsLi.classList.add("active");
     homeLi.classList.remove("active");
 
@@ -46,18 +50,16 @@ export function menuEvents() {
     window.location.hash = "#projects";
   });
 
-  // Making sure URL always reflect the correct pathname
+  // Making sure URL and content always reflect the correct pathname
   window.addEventListener("hashchange", () => {
-    const hash = window.location.hash;
-    if (hash === "#projects") {
+    if (window.location.hash === "#projects") {
       loadProjects();
     } else {
       loadHome();
     }
   });
 
-  const initialPath = window.location.hash;
-  if (initialPath === "#projects") {
+  if (window.location.hash === "#projects") {
     loadProjects();
   } else {
     loadHome();

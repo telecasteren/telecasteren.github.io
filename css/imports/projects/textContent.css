@@ -5,3 +5,9 @@
 #featuredTitle {
   font-weight: 500;
 }
+
+@media screen and (max-width: 891px) {
+  #project-textContainer {
+    margin: 0 20px 0 20px;
+  }
+}

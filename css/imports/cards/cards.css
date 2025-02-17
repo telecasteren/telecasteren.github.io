@@ -4,6 +4,7 @@
   gap: 40px;
   margin: 40px 0 0 0;
   justify-self: center;
+  justify-content: center;
 }
 
 .titleContainer {
@@ -45,15 +46,16 @@
   color: var(--primary-text);
 }
 
-@media screen and (max-width: 778px) {
+@media screen and (max-width: 891px) {
   .projectsContainer {
     flex-direction: column;
     align-items: center;
   }
 
   .card {
-    width: 90%;
-    max-width: 350px;
-    height: fit-content;
+    width: 85%;
+    height: auto;
+    margin: 0;
+    justify-self: center;
   }
 }
