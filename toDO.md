@@ -1,10 +1,5 @@
 # TO DO
 
-## BUGS
-
-- Fix link to websites and repos. Overlay pointer events: none
-- Position the toggle switch when on #home inline with text
-
 ### Projects
 
 - Project cards recording better video

@@ -10,4 +10,17 @@ export function displayLandingImage() {
 
   container.appendChild(img);
   welcomeContent.appendChild(container);
+
+  function smallerScreens() {
+    if (window.innerWidth < 778) {
+      if (welcomeContent.firstChild !== container) {
+        welcomeContent.prepend(container);
+      }
+    } else {
+      if (welcomeContent.lastChild !== container) {
+        welcomeContent.appendChild(container);
+      }
+    }
+  }
+  window.addEventListener("resize", smallerScreens);
 }

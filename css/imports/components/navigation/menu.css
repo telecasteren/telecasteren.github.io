@@ -1,6 +1,7 @@
 .menuList {
   display: flex;
   gap: 40px;
+  padding: 0;
   margin: 50px auto;
   justify-content: center;
   align-items: center;

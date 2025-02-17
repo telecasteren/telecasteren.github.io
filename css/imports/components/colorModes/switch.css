@@ -5,8 +5,7 @@
   text-align: center;
   cursor: pointer;
   border: 2px solid var(--field-border);
-  transition: border-color 0.25s, transform 0.3s ease-in-out,
-    margin 0.3s ease-in-out;
+  transition: border-color 0.25s, transform 0.3s ease-in-out;
   animation: glow-border 2s infinite alternate;
 }
 
@@ -31,6 +30,6 @@
   .toggleSwitch {
     display: flex;
     justify-content: center;
-    margin: 0 auto 20px auto;
+    margin: 0 auto 20px auto !important;
   }
 }
