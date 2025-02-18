@@ -37,8 +37,8 @@ export function cardsHtml(project) {
   p.id = "project-desc";
   p.innerHTML = `${project.description}<br><br>
 <b><a href="${project.proj_url}" target="_blank">Go to ${project.title}</a></b><br/>
-or look at the code at<br>
-<b><a href="${project.git_repo}" target="_blank">The repository</a></b>`;
+or look at the code at the<br>
+<b><a href="${project.git_repo}" target="_blank">Github repository</a></b>`;
 
   titleContainer.appendChild(h4);
   titleContainer.appendChild(p);

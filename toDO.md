@@ -3,6 +3,10 @@
 - Image size < 200kb
 - ColorMode button initial position on page load
 
+## BUGS
+
+- If user refreshes when in PROJECTS, home content is displayed, but underline in menu persists
+
 ## ENHANCE THE PROJECTS
 
 - UNWIRED ------------(FINISHED)

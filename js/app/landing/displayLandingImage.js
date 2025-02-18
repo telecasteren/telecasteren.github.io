@@ -1,10 +1,12 @@
 import { welcomeContent } from "/js/app/utils/constants.js";
+import { screenSizeChange } from "/js/app/eventListeners/screenSizeChange.js";
 
 export function displayLandingImage() {
   const existingImage = document.getElementById("landingImage");
   if (existingImage) existingImage.parentElement.remove();
 
   const container = document.createElement("div");
+  container.className = "landingIMGcontainer";
 
   const img = document.createElement("img");
   img.id = "landingImage";
@@ -12,15 +14,7 @@ export function displayLandingImage() {
   img.alt = "A black and white photo of the portfolio owner.";
   container.appendChild(img);
 
-  function screenSizeChange() {
-    if (window.innerWidth <= 778) {
-      welcomeContent.prepend(container);
-    } else {
-      welcomeContent.appendChild(container);
-    }
-  }
-  screenSizeChange();
+  welcomeContent.appendChild(container);
 
-  window.removeEventListener("resize", screenSizeChange);
-  window.addEventListener("resize", screenSizeChange);
+  screenSizeChange();
 }
