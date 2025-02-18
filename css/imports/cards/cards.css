@@ -20,10 +20,6 @@
   transition: transform 0.3s ease-in-out;
 }
 
-.cardsContainer:hover {
-  transform: scale(1.04);
-}
-
 .card {
   width: 350px;
   height: 400px;
@@ -33,6 +29,10 @@
 
   position: relative;
   overflow: hidden;
+}
+
+.card:hover {
+  background: rgba(0, 0, 0, 0.6);
 }
 
 .card img {
@@ -57,5 +57,11 @@
     height: auto;
     margin: 0;
     justify-self: center;
+  }
+}
+
+@media screen and (min-width: 892px) {
+  .cardsContainer:hover {
+    transform: scale(1.04);
   }
 }

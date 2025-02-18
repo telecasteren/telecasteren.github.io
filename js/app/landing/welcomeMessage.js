@@ -12,7 +12,7 @@ export function welcomeMessage() {
   const subMessage = document.createElement("h2");
   subMessage.id = "subMessage";
   subMessage.innerText = `
-  I'm front-end developer from Norway.
+  I'm a web developer from Norway.
   I'm also notoriously curious about everything.`;
 
   const message = document.createElement("h3");
