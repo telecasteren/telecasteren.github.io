@@ -1,10 +1,7 @@
 # TO DO
 
-### Projects
-
-- Project cards recording better video
-- Enhance performance of projects
 - Image size < 200kb
+- ColorMode button initial position on page load
 
 ## ENHANCE THE PROJECTS
 
