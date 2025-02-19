@@ -1,5 +1,5 @@
 .landing-content {
-  padding: 0 150px 0 150px;
+  padding: 0 20px 0 20px;
 }
 
 .welcome-content {
@@ -51,7 +51,7 @@
 
 @media screen and (max-width: 778px) {
   .welcome-content {
-    padding: 20px;
+    padding: 10px;
     flex-direction: column;
   }
 
@@ -67,6 +67,11 @@
     font-size: 1.1rem;
   }
 
+  .landingIMGcontainer {
+    width: auto;
+    justify-content: center;
+  }
+
   #landingImage {
     width: 250px;
     height: auto;
@@ -74,8 +79,8 @@
   }
 }
 
-@media screen and (max-width: 891px) {
+@media screen and (min-width: 1024px) {
   .landing-content {
-    padding: 0 20px 0 20px;
+    padding: 0 150px 0 150px;
   }
 }

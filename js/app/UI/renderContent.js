@@ -8,7 +8,6 @@ import { renderProjects } from "/js/app/projects/cards/renderProjects.js";
 import { playVideo } from "/js/app/eventListeners/videoEvents.js";
 import projects from "/resources/projects/projects.js";
 import { colorModeToggle } from "/js/app/components/colorModes/switch.js";
-import { switchColorMode } from "/js/app/components/colorModes/toggleEvents.js";
 
 export function renderContent() {
   const menuList = document.querySelector(".menuList");
@@ -29,7 +28,6 @@ export function renderContent() {
     welcomeContent.innerHTML = "";
 
     colorModeToggle();
-    switchColorMode();
     welcomeMessage();
   }
 
@@ -45,7 +43,6 @@ export function renderContent() {
     pageContent.innerHTML = "";
 
     colorModeToggle();
-    switchColorMode();
     renderProjects(projects);
     playVideo();
   }
