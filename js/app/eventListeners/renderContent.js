@@ -7,8 +7,10 @@ import { welcomeMessage } from "/js/app/landing/welcomeMessage.js";
 import { renderProjects } from "/js/app/projects/cards/renderProjects.js";
 import { playVideo } from "/js/app/eventListeners/videoEvents.js";
 import projects from "/resources/projects/projects.js";
+import { colorModeToggle } from "/js/app/components/colorModes/switch.js";
+import { switchColorMode } from "/js/app/components/colorModes/toggleEvents.js";
 
-export function menuEvents() {
+export function renderContent() {
   const menuList = document.querySelector(".menuList");
   if (!menuList) return;
 
@@ -16,6 +18,8 @@ export function menuEvents() {
   const projectsLi = document.getElementById("projectsLi");
 
   function loadHome() {
+    pageContent.classList.add("landing-content");
+
     if (homeLi.classList.contains("active")) return;
 
     homeLi.classList.add("active");
@@ -24,10 +28,14 @@ export function menuEvents() {
     pageContent.innerHTML = "";
     welcomeContent.innerHTML = "";
 
+    colorModeToggle();
+    switchColorMode();
     welcomeMessage();
   }
 
   function loadProjects() {
+    pageContent.classList.remove("landing-content");
+
     if (projectsLi.classList.contains("active")) return;
 
     projectsLi.classList.add("active");
@@ -36,6 +44,8 @@ export function menuEvents() {
     portfolioContent.innerHTML = "";
     pageContent.innerHTML = "";
 
+    colorModeToggle();
+    switchColorMode();
     renderProjects(projects);
     playVideo();
   }

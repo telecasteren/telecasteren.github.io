@@ -1,4 +1,8 @@
-import { welcomeContent, pageContent } from "/js/app/utils/constants.js";
+import {
+  welcomeContent,
+  pageContent,
+  loader,
+} from "/js/app/utils/constants.js";
 import { displayLandingImage } from "/js/app/landing/displayLandingImage.js";
 
 export function welcomeMessage() {
@@ -19,7 +23,7 @@ export function welcomeMessage() {
   message.id = "message";
   message.innerHTML = `Keywords: <span>playful, simple and efficient.</span>`;
 
-  pageContent.innerHTML = "";
+  loader.style.display = "none";
 
   container.prepend(message);
   container.prepend(subMessage);

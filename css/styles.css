@@ -28,12 +28,3 @@ body {
   flex-direction: column;
   margin: 4%;
 }
-
-.pageContent {
-  opacity: 0;
-  transition: opacity 0.5s ease-in-out;
-}
-
-.fade-in {
-  opacity: 1;
-}

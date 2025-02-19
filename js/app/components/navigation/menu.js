@@ -1,5 +1,4 @@
 import { mainSection } from "/js/app/utils/constants.js";
-import { menuEvents } from "/js/app/eventListeners/menuEvents.js";
 
 export function menu() {
   const menuContainer = document.createElement("div");
@@ -23,6 +22,4 @@ export function menu() {
   menuContainer.appendChild(menuList);
 
   mainSection.prepend(menuContainer);
-
-  menuEvents();
 }

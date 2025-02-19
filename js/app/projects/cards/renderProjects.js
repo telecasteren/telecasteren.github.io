@@ -4,6 +4,9 @@ import { cardsHtml } from "/js/app/projects/cards/cardsHtml.js";
 import { projectText } from "/js/app/projects/textContent.js";
 
 export function renderProjects(projects) {
+  pageContent.classList.remove("landing-content");
+  pageContent.classList.add("projects-content");
+
   try {
     const container = document.createElement("div");
     container.className = "projectsContainer";
