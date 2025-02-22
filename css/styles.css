@@ -1,6 +1,7 @@
 @import url(/css/imports/components/loader.css);
 @import url(/css/imports/components/messages/userMessage.css);
 @import url(/css/imports/components/messages/alertMessage.css);
+@import url(/css/imports/components/messages/formErrors.css);
 @import url(/css/imports/components/navigation/menu.css);
 @import url(/css/imports/welcomeMessage.css);
 
@@ -14,8 +15,7 @@
 @import url(/css/imports/projects/cards/video.css);
 
 /* CONTACT */
-@import url(/css/imports/contact/contactForm.css);
-@import url(/css/imports/contact/textContent.css);
+@import url(/css/imports/contact/contactSection.css);
 
 html,
 body {

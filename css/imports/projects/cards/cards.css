@@ -25,7 +25,8 @@
   height: 400px;
   padding: 20px;
   border-radius: 2px;
-  box-shadow: 0 0 5px 5px var(--card-container);
+  box-shadow: 8px 10px 0 0 var(--box-shadow);
+  border: 1px solid var(--box-shadow);
 
   position: relative;
   overflow: hidden;

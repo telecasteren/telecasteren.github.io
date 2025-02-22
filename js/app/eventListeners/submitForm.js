@@ -30,5 +30,7 @@ export function submitFormEvent() {
         "warning"
       );
     }
+
+    formElement.reset();
   });
 }
