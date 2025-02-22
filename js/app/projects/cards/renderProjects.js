@@ -1,4 +1,4 @@
-import { userMessage } from "/js/app/utils/userMessage.js";
+import { userMessage } from "/js/app/utils/validation/userMessage.js";
 import { portfolioContent, pageContent } from "/js/app/utils/constants.js";
 import { cardsHtml } from "/js/app/projects/cards/cardsHtml.js";
 import { projectText } from "/js/app/projects/textContent.js";

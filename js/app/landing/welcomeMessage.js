@@ -20,7 +20,7 @@ export function welcomeMessage() {
   I'm also notoriously curious about everything.`;
 
   const message = document.createElement("h3");
-  message.id = "message";
+  message.id = "landingMessage";
   message.innerHTML = `Keywords: <span>playful, simple and efficient.</span>`;
 
   loader.style.display = "none";

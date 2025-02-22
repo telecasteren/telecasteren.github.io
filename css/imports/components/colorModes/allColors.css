@@ -2,6 +2,15 @@
   --error-border: #b80000;
   --error-background: #c100005c;
 
+  --alert-box-shadow: #0000004d;
+  --alert-info: #00000099;
+  --alert-success: #478c445e;
+  --alert-warning: #a0863385;
+  --alert-error: #a23b3b4d;
+  --alert-text: #193039;
+  --alert-background: #ffffff;
+  --alert-close: #193039;
+
   --card-container: #8991e9;
 }
 

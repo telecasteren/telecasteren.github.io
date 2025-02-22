@@ -1,4 +1,4 @@
-import { userMessage } from "/js/app/utils/userMessage.js";
+import { userMessage } from "/js/app/utils/validation/userMessage.js";
 import { welcomeContent } from "/js/app/utils/constants.js";
 
 export function screenSizeChange() {

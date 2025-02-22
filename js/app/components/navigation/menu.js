@@ -17,8 +17,14 @@ export function menu() {
   projects.id = "projectsLi";
   projects.textContent = "PROJECTS";
 
+  const contact = document.createElement("li");
+  contact.classList.add("nav-li");
+  contact.id = "contactLi";
+  contact.textContent = "CONTACT";
+
   menuList.appendChild(home);
   menuList.appendChild(projects);
+  menuList.appendChild(contact);
   menuContainer.appendChild(menuList);
 
   mainSection.prepend(menuContainer);

@@ -2,6 +2,6 @@
 
 ## ENHANCE THE PROJECTS
 
-- UNWIRED ------------(FINISHED)
-- GAMEHUB: ------------(FINISHED) CAN SITE BE ENHANCED MORE?
-- SEMESTER PROJECT 1: ReadMe file is finished. Potentially enhance site more?
+- UNWIRED ------------(FINISHED) -- FIX size of ReadMe files image!
+- GAMEHUB: Potentially enhance site more?
+- SEMESTER PROJECT 1: Potentially enhance site more?
