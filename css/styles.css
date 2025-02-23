@@ -1,12 +1,12 @@
 @import url(/css/imports/components/loader.css);
-@import url(/css/imports/components/messages/userMessage.css);
-@import url(/css/imports/components/messages/alertMessage.css);
-@import url(/css/imports/components/messages/formErrors.css);
+@import url(/css/imports/utils/messages/userMessage.css);
+@import url(/css/imports/utils/messages/alertMessage.css);
+@import url(/css/imports/utils/messages/formErrors.css);
 @import url(/css/imports/components/navigation/menu.css);
 @import url(/css/imports/welcomeMessage.css);
 
 /* COLORMODE */
-@import url(/css/imports/components/colorModes/allColors.css);
+@import url(/css/imports/utils/allColors.css);
 @import url(/css/imports/components/colorModes/switch.css);
 
 /* PROJECTS */
