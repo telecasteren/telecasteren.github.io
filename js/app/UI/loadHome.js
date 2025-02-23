@@ -4,6 +4,8 @@ import { colorModeToggle } from "/js/app/components/colorModes/switch.js";
 
 export function loadHome() {
   const homeLi = document.getElementById("homeLi");
+  const projectsLi = document.getElementById("projectsLi");
+  const contactLi = document.getElementById("contactLi");
 
   pageContent.classList.add("landing-content");
   pageContent.classList.remove("contact-page");

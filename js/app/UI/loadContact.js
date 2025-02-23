@@ -3,6 +3,8 @@ import { colorModeToggle } from "/js/app/components/colorModes/switch.js";
 import { displayContactPage } from "/js/app/contact/displayContactPage.js";
 
 export function loadContact() {
+  const homeLi = document.getElementById("homeLi");
+  const projectsLi = document.getElementById("projectsLi");
   const contactLi = document.getElementById("contactLi");
 
   pageContent.classList.remove("landing-content");

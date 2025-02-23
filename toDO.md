@@ -2,6 +2,6 @@
 
 ## ENHANCE THE PROJECTS
 
-- UNWIRED ------------(FINISHED) -- FIX size of ReadMe files image!
+- UNWIRED DONE -- potentially fix heading structure at Writing page
 - GAMEHUB: Potentially enhance site more?
-- SEMESTER PROJECT 1: Potentially enhance site more?
+- SEMESTER PROJECT 1: DONE

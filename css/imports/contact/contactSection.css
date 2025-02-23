@@ -14,13 +14,14 @@
 
 input {
   padding: 10px;
-  margin: 20px 20px 10px 0;
+  margin: 10px 20px 10px 0;
 }
 
 #message {
   width: 90%;
   min-height: 200px;
   padding: 20px;
+  margin-top: 10px;
 }
 
 input,
@@ -60,6 +61,14 @@ input[type="Submit"]:hover {
 
 #contactSubTitle {
   font-weight: lighter;
+}
+
+#contact-li a {
+  color: var(--primary-text);
+}
+
+#contact-li a:hover {
+  color: var(--accent-color);
 }
 
 @media screen and (min-width: 1024px) {

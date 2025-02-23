@@ -5,7 +5,9 @@ import projects from "/resources/projects/projects.js";
 import { colorModeToggle } from "/js/app/components/colorModes/switch.js";
 
 export function loadProjects() {
+  const homeLi = document.getElementById("homeLi");
   const projectsLi = document.getElementById("projectsLi");
+  const contactLi = document.getElementById("contactLi");
 
   pageContent.classList.remove("landing-content");
   pageContent.classList.remove("contact-page");

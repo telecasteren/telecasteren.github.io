@@ -1,5 +1,6 @@
 import { mainSection, pageContent } from "/js/app/utils/constants.js";
 import { contactForm } from "/js/app/contact/contactForm.js";
+import { contactPaths } from "/resources/contactInfo/contactInfo.js";
 
 export function displayContactPage() {
   pageContent.classList.add("contact-page");
@@ -18,12 +19,12 @@ export function displayContactPage() {
   const list = document.createElement("ul");
   list.id = "contactList";
 
-  const contactPaths = ["Github", "LinkedIn", "telecasternilsen.netlify"];
+  // const contactPaths = ["Github", "LinkedIn", "telecasternilsen.netlify"];
 
   contactPaths.forEach((path) => {
     const listElement = document.createElement("li");
     listElement.id = "contact-li";
-    listElement.innerText = path;
+    listElement.innerHTML = path;
     list.appendChild(listElement);
   });
 

@@ -1,22 +1,24 @@
 # Tele Caster Nilsen's portfolio
 
-![image](resources/images/tcn-portfolio-page.png)
+![image](resources/images/tcn-portfolio-page.webp)
 
 **Live site:** [telecasteren](https://telecasteren.github.io/)
 
 ## Description
 
-A portfolio showcasing three of my bigger website projects.
+I'm Tele Caster Nilsen and this is my portfolio.<br/>
+This website is showcasing three of my bigger website projects, and the portfolio is also in it's entirety built by me.
 
-**Projects displayed at site:**
+**Projects showcased on site:**
 
 - Unwired - [unwired]()
 - Gamehub - [gamehub]()
 - Community Science Museum - [communitysciencemuseum]()
 
-## Built With
+## Portfolio built with
 
-I build websites with **Visual Studio Code**.
+I build websites with **Visual Studio Code** and **Git**.<br/>
+And I tend to experiment with different methods of deployment, in this case the site is deployed with Github pages.
 
 - Javascript, HTML and CSS
 
