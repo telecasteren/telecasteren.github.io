@@ -47,6 +47,10 @@
   color: var(--primary-text);
 }
 
+#project-desc a:hover {
+  color: var(--accent-color);
+}
+
 @media screen and (max-width: 891px) {
   .projectsContainer {
     flex-direction: column;
