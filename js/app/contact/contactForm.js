@@ -1,5 +1,5 @@
 import { loader, pageContent } from "/js/app/utils/constants.js";
-import { submitFormEvent } from "/js/app/eventListeners/submitForm.js";
+import { submitFormValidation } from "/js/app/eventListeners/submitFormValidation.js";
 import {
   emailValidation,
   MinLengthValidation,
@@ -120,5 +120,5 @@ export function contactForm() {
     "Message must be at least 20 characters."
   );
 
-  submitFormEvent();
+  submitFormValidation();
 }

@@ -6,6 +6,7 @@ export function displayContactPage() {
   pageContent.classList.add("contact-page");
 
   const contactPageContainer = document.createElement("div");
+  contactPageContainer.className = "contactPageContainer";
 
   const title = document.createElement("h1");
   title.id = "contactTitle";
@@ -18,8 +19,6 @@ export function displayContactPage() {
 
   const list = document.createElement("ul");
   list.id = "contactList";
-
-  // const contactPaths = ["Github", "LinkedIn", "telecasternilsen.netlify"];
 
   contactPaths.forEach((path) => {
     const listElement = document.createElement("li");

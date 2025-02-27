@@ -7,7 +7,10 @@
 
 /* COLORMODE */
 @import url(/css/imports/utils/allColors.css);
-@import url(/css/imports/components/colorModes/switch.css);
+
+/* BUTTONS */
+@import url(/css/imports/components/buttons/switch.css);
+@import url(/css/imports/components/buttons/aboutBtn.css);
 
 /* PROJECTS */
 @import url(/css/imports/projects/textContent.css);
@@ -16,6 +19,9 @@
 
 /* CONTACT */
 @import url(/css/imports/contact/contactSection.css);
+
+/* ABOUT */
+@import url(/css/imports/about/aboutSection.css);
 
 html,
 body {
@@ -32,4 +38,8 @@ body {
   display: flex;
   flex-direction: column;
   margin: 4%;
+}
+
+.hidden {
+  display: none;
 }

@@ -1,3 +1,6 @@
+.contactPageContainer {
+  margin: 50px 0 50px 0;
+}
 .contact-page {
   padding: 10px;
 }
@@ -57,6 +60,7 @@ input[type="Submit"]:hover {
 
 #contactTitle {
   font-weight: 500;
+  font-size: 1.5rem;
 }
 
 #contactSubTitle {

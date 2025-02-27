@@ -12,6 +12,11 @@ export function menu() {
   home.id = "homeLi";
   home.textContent = "HOME";
 
+  const about = document.createElement("li");
+  about.classList.add("nav-li");
+  about.id = "aboutLi";
+  about.textContent = "ABOUT";
+
   const projects = document.createElement("li");
   projects.classList.add("nav-li");
   projects.id = "projectsLi";
@@ -23,9 +28,9 @@ export function menu() {
   contact.textContent = "CONTACT";
 
   menuList.appendChild(home);
+  menuList.appendChild(about);
   menuList.appendChild(projects);
   menuList.appendChild(contact);
   menuContainer.appendChild(menuList);
-
   mainSection.prepend(menuContainer);
 }

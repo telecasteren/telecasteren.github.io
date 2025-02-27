@@ -8,6 +8,7 @@ export function loadProjects() {
   const homeLi = document.getElementById("homeLi");
   const projectsLi = document.getElementById("projectsLi");
   const contactLi = document.getElementById("contactLi");
+  const aboutLi = document.getElementById("aboutLi");
 
   pageContent.classList.remove("landing-content");
   pageContent.classList.remove("contact-page");
@@ -17,6 +18,7 @@ export function loadProjects() {
   projectsLi.classList.add("active");
   homeLi.classList.remove("active");
   contactLi.classList.remove("active");
+  aboutLi.classList.remove("active");
 
   portfolioContent.innerHTML = "";
   pageContent.innerHTML = "";

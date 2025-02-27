@@ -7,7 +7,7 @@
 ## Description
 
 I'm Tele Caster Nilsen and this is my portfolio.<br/>
-This website is showcasing three of my bigger website projects, and the portfolio is also in it's entirety built by me.
+This website is showcasing three of my bigger website projects, and this portfolio is also in it's entirety built by me.
 
 **Projects showcased on site:**
 
