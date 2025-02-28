@@ -40,3 +40,47 @@
 .nav-li.active:hover::after {
   width: 50%;
 }
+
+.mobileMenu {
+  display: none;
+}
+
+@media screen and (max-width: 778px) {
+  .menuContainer {
+    position: relative;
+    top: 0;
+  }
+
+  .mobileMenu {
+    display: flex;
+    width: 80px;
+    height: auto;
+    cursor: pointer;
+    z-index: 50;
+  }
+
+  .menuList {
+    display: grid;
+    position: fixed;
+    overflow: hidden;
+    text-align: center;
+    margin: 0;
+    gap: 20px;
+    transition: 0.3s;
+    width: 100vw;
+    height: auto;
+    background-color: var(--mobile-menu-bg);
+    left: 0;
+    top: 0;
+    z-index: 30;
+  }
+
+  .nav-li {
+    font-size: 1.4rem;
+  }
+
+  .nav-li.active::after {
+    left: 50%;
+    width: 70%;
+  }
+}

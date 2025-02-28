@@ -7,7 +7,7 @@
 ## Description
 
 I'm Tele Caster Nilsen and this is my portfolio.<br/>
-This website is showcasing three of my bigger website projects, and this portfolio is also in it's entirety built by me.
+Whilst showcasing three of my bigger website projects, the portfolio itself also is built entirely by me.
 
 **Projects showcased on site:**
 
@@ -19,6 +19,8 @@ This website is showcasing three of my bigger website projects, and this portfol
 
 I build websites with **Visual Studio Code** and **Git**.<br/>
 And I tend to experiment with different methods of deployment, in this case the site is deployed with Github pages.
+
+**Languages:**</br>
 
 - Javascript, HTML and CSS
 

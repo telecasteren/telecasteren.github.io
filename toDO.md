@@ -1,5 +1,7 @@
 # TO DO
 
+\*\* Fix project image sizes and format
+
 ## ENHANCE THE PROJECTS
 
 - UNWIRED DONE -- potentially fix heading structure at Writing page

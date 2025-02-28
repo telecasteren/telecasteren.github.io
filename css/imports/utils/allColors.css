@@ -17,6 +17,7 @@
 
 body.dark {
   --background: #242424;
+  --mobile-menu-bg: #242424;
   --primary-text: #ffffffde;
   --field-border: #cacaca;
   --accent-color: #921a92;
@@ -25,6 +26,7 @@ body.dark {
 
 body.light {
   --background: #ffffffde;
+  --mobile-menu-bg: #ffffff;
   --primary-text: #000000;
   --field-border: #242424;
   --accent-color: #70e000;

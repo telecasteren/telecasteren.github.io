@@ -1,5 +1,5 @@
 import { aboutTexts } from "/js/app/landing/about/aboutText.js";
-import { closeAboutBtn } from "/js/app/eventListeners/closeAbout.js";
+import { closeAboutBtn } from "/js/app/eventListeners/landing/closeAbout.js";
 
 export function aboutContent() {
   const landingContent = document.querySelector(".page-content");

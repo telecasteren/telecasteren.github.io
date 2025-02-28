@@ -4,6 +4,7 @@ import { loadContact } from "/js/app/UI/loadContact.js";
 import { loadAbout } from "/js/app/UI/loadAbout.js";
 
 export function renderContent() {
+  const mobileMenu = document.querySelector(".mobileMenu");
   const menuList = document.querySelector(".menuList");
   if (!menuList) return;
 
@@ -15,21 +16,37 @@ export function renderContent() {
   homeLi.addEventListener("click", () => {
     loadHome();
     window.location.hash = "#home";
+
+    menuList.style.maxHeight = "0px";
+    menuList.style.padding = "0";
+    mobileMenu.style.position = "relative";
   });
 
   projectsLi.addEventListener("click", () => {
     loadProjects();
     window.location.hash = "#projects";
+
+    menuList.style.maxHeight = "0px";
+    menuList.style.padding = "0";
+    mobileMenu.style.position = "relative";
   });
 
   contactLi.addEventListener("click", () => {
     loadContact();
     window.location.hash = "#contact";
+
+    menuList.style.maxHeight = "0px";
+    menuList.style.padding = "0";
+    mobileMenu.style.position = "relative";
   });
 
   aboutLi.addEventListener("click", () => {
     loadAbout();
     window.location.hash = "#about";
+
+    menuList.style.maxHeight = "0px";
+    menuList.style.padding = "0";
+    mobileMenu.style.position = "relative";
   });
 
   // Making sure URL and content always reflect the correct pathname

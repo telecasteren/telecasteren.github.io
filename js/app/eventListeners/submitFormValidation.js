@@ -7,8 +7,8 @@ export async function submitFormValidation() {
   const inputs = [
     { element: document.querySelector("#email"), minLength: 1 },
     { element: document.querySelector("#fname"), minLength: 5 },
-    { element: document.querySelector("#subject"), minLength: 15 },
-    { element: document.querySelector("#message"), minLength: 25 },
+    { element: document.querySelector("#subject"), minLength: 10 },
+    { element: document.querySelector("#message"), minLength: 20 },
   ];
 
   formElement.addEventListener("submit", async (event) => {
@@ -19,11 +19,6 @@ export async function submitFormValidation() {
     );
 
     if (formIsValid) {
-      // alertMessage(
-      //   `Thanks for your message!
-      //   I'll get back to you soon 🦀`,
-      //   "info"
-      // );
       const formData = new FormData(formElement);
 
       try {
@@ -34,7 +29,7 @@ export async function submitFormValidation() {
         });
 
         if (response.ok) {
-          alertMessage("Thank you, I'll get back to you soon!", "info");
+          alertMessage("Thank you, I'll get back to you soon! 🦀", "info");
         } else {
           alertMessage(
             "Couldn't send your inquiry. Please try again.",

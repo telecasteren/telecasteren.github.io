@@ -43,3 +43,9 @@ body {
 .hidden {
   display: none;
 }
+
+@media screen and (max-width: 778px) {
+  .page-content {
+    margin-top: 20px;
+  }
+}

@@ -1,4 +1,5 @@
 import { mainSection } from "/js/app/utils/constants.js";
+import { mobileMenuEvents } from "/js/app/eventListeners/mobileMenuEvents/mobileMenuEvents.js";
 
 export function menu() {
   const menuContainer = document.createElement("div");
@@ -6,6 +7,12 @@ export function menu() {
 
   const menuList = document.createElement("ul");
   menuList.className = "menuList";
+  menuList.style.maxHeight = "0";
+
+  const mobileMenu = document.createElement("img");
+  mobileMenu.className = "mobileMenu";
+  mobileMenu.src = "/resources/images/hamburger-menu.png";
+  mobileMenu.alt = "Mobile menu";
 
   const home = document.createElement("li");
   home.classList.add("nav-li", "active");
@@ -31,6 +38,9 @@ export function menu() {
   menuList.appendChild(about);
   menuList.appendChild(projects);
   menuList.appendChild(contact);
+  menuContainer.appendChild(mobileMenu);
   menuContainer.appendChild(menuList);
   mainSection.prepend(menuContainer);
+
+  mobileMenuEvents();
 }
