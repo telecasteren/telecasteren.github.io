@@ -1,0 +1,59 @@
+.skillContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 180px;
+  max-width: 100%;
+}
+
+.learnMoreText {
+  font-weight: lighter;
+  font-size: 1.2rem;
+  max-width: 450px;
+  flex: 1 1 300px;
+}
+
+.learnMoreText span {
+  font-weight: 400;
+}
+
+.skill-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 5px;
+  min-width: 280px;
+  flex: 1 1 320px;
+}
+
+.skill-label {
+  font-weight: 400;
+  white-space: nowrap;
+}
+
+.rangeInput {
+  border: 0;
+  box-shadow: none;
+  max-width: 200px;
+  flex-grow: 1;
+}
+
+@media (max-width: 1024px) {
+  .skillContainer {
+    gap: 20px 100px;
+  }
+}
+
+@media (max-width: 778px) {
+  .skillContainer {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .learnMoreText {
+    max-width: 300px;
+  }
+
+  .rangeInput {
+    max-width: 150px;
+  }
+}

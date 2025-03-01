@@ -24,7 +24,8 @@
 /* ABOUT */
 @import url(/css/imports/about/aboutSection.css);
 @import url(/css/imports/about/aboutTitle.css);
-@import url(/css/imports/about/learnMore.css);
+@import url(/css/imports/about/learnMore/learnMore.css);
+@import url(/css/imports/about/learnMore/skillset.css);
 
 html,
 body {

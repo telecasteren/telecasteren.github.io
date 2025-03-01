@@ -1,20 +1,20 @@
-export const learnMoreTexts = [
+export const softSkills = [
   {
-    className: "empathyText",
+    className: "skillText",
     content: `
-      <span>Empathy</span><br/>
-      This is some text about empathy.`,
+      <span>Project management</span><br/>
+      This is some text about project management.`,
   },
   {
-    className: "sustainText",
+    className: "skillText",
     content: `
-      <span>Sustainability</span><br/>
-      This is some text about sustainability.`,
+      <span>Communication</span><br/>
+      This is some text about communication.`,
   },
   {
-    className: "accessibleText",
+    className: "skillText",
     content: `
-      <span>Accessible</span><br/>
-      This is some text about accessability.`,
+      <span>Customer service</span><br/>
+      This is some text about customer service.`,
   },
 ];
