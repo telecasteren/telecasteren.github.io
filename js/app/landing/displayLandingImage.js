@@ -1,5 +1,5 @@
 import { welcomeContent } from "/js/app/utils/constants.js";
-import { screenSizeChange } from "/js/app/eventListeners/landing/screenSizeChange.js";
+// import { screenSizeChange } from "/js/app/eventListeners/landing/screenSizeChange.js";
 
 export function displayLandingImage() {
   const existingImage = document.getElementById("landingImage");
@@ -16,5 +16,5 @@ export function displayLandingImage() {
 
   welcomeContent.appendChild(container);
 
-  screenSizeChange();
+  // screenSizeChange();
 }

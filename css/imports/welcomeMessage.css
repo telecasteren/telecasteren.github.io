@@ -51,19 +51,20 @@
 @media screen and (max-width: 778px) {
   .welcome-content {
     padding: 10px;
+    gap: 20px;
     flex-direction: column;
   }
 
   #title {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   #subMessage {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   #landingMessage {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
   }
 
   .landingIMGcontainer {
@@ -72,7 +73,7 @@
   }
 
   #landingImage {
-    width: 250px;
+    width: 200px;
     height: auto;
     margin-top: 20px;
   }

@@ -34,6 +34,8 @@
   .toggleSwitch {
     display: flex;
     justify-content: center;
-    margin: 0 auto 20px auto !important;
+    right: 0;
+    position: absolute;
+    margin: -60px 20px;
   }
 }
