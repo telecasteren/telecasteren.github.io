@@ -1,33 +1,9 @@
 .toggleSwitch {
-  width: 180px;
-  padding: 10px;
   margin: 0 0 20px 0;
-  text-align: center;
-  cursor: pointer;
-  border: 2px solid var(--field-border);
-  transition: border-color 0.25s, transform 0.3s ease-in-out;
-  animation: glow-border 2s infinite alternate;
-}
-
-.toggleSwitch:hover {
-  border-color: var(--accent-color);
-  transform: scale(1.02);
 }
 
 .projectsSwitch {
   margin: 0 0 20px 80px;
-}
-
-@keyframes glow-border {
-  0% {
-    border-color: var(--accent-color);
-  }
-  50% {
-    border-color: var(--glow-border);
-  }
-  100% {
-    border-color: var(--accent-color);
-  }
 }
 
 @media screen and (max-width: 778px) {

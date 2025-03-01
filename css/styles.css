@@ -9,8 +9,9 @@
 @import url(/css/imports/utils/allColors.css);
 
 /* BUTTONS */
+@import url(/css/imports/components/buttons/glowBorderBtn.css);
 @import url(/css/imports/components/buttons/switch.css);
-@import url(/css/imports/components/buttons/aboutBtn.css);
+@import url(/css/imports/components/buttons/learnMoreBtn.css);
 
 /* PROJECTS */
 @import url(/css/imports/projects/textContent.css);
@@ -22,6 +23,8 @@
 
 /* ABOUT */
 @import url(/css/imports/about/aboutSection.css);
+@import url(/css/imports/about/aboutTitle.css);
+@import url(/css/imports/about/learnMore.css);
 
 html,
 body {

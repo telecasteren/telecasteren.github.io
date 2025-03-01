@@ -6,7 +6,7 @@ export function colorModeToggle() {
   toggleContainer.className = "toggleContainer";
 
   const toggleSwitch = document.createElement("div");
-  toggleSwitch.classList.add("toggleSwitch");
+  toggleSwitch.classList.add("toggleSwitch", "glowBorderBtn");
   toggleSwitch.innerText = "DarkMode/LightMode";
 
   pageContent.prepend(toggleSwitch);

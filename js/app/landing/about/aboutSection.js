@@ -1,4 +1,5 @@
 import { aboutTexts } from "/js/app/landing/about/aboutText.js";
+// import { learnMoreBtn } from "/js/app/landing/about/learnMore/learnMoreBtn.js";
 import { closeAboutBtn } from "/js/app/eventListeners/landing/closeAbout.js";
 
 export function aboutContent() {
@@ -12,8 +13,8 @@ export function aboutContent() {
 
   const aboutTitle = document.createElement("h4");
   aboutTitle.id = "aboutTitle";
-  aboutTitle.className = "aboutBtn";
-  aboutTitle.innerText = "Get to know me";
+  aboutTitle.className = "aboutTitle";
+  aboutTitle.innerText = "About me";
 
   const closeAbout = document.createElement("div");
   closeAbout.id = "closeAbout";
@@ -32,5 +33,6 @@ export function aboutContent() {
   section.appendChild(closeAbout);
   landingContent.appendChild(section);
 
+  // learnMoreBtn();
   closeAboutBtn();
 }

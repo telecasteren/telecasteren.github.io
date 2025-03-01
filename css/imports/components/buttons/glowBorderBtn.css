@@ -1,0 +1,26 @@
+.glowBorderBtn {
+  width: 180px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  border: 2px solid var(--field-border);
+  transition: border-color 0.25s, transform 0.3s ease-in-out;
+  animation: glow-border 2s infinite alternate;
+}
+
+.glowBorderBtn:hover {
+  border-color: var(--accent-color);
+  transform: scale(1.02);
+}
+
+@keyframes glow-border {
+  0% {
+    border-color: var(--accent-color);
+  }
+  50% {
+    border-color: var(--glow-border);
+  }
+  100% {
+    border-color: var(--accent-color);
+  }
+}
