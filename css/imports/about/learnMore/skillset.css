@@ -5,6 +5,11 @@
   max-width: 100%;
 }
 
+#skillSetTitle {
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
 .learnMoreText {
   font-weight: lighter;
   font-size: 1.2rem;

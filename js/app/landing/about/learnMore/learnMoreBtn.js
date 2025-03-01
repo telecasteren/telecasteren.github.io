@@ -19,15 +19,17 @@ export function learnMoreBtn() {
   learnMoreBtn.addEventListener("click", () => {
     learnMoreSection();
 
-    const learnMoreTextContainer = document.querySelector(
-      ".learnMoreTextContainer"
-    );
-    learnMoreTextContainer.scrollIntoView({ behavior: "smooth" });
-
     if (learnMoreSection) {
       buttonContainer.classList.add("hidden");
     } else {
       buttonContainer.classList.remove("hidden");
     }
+
+    setTimeout(() => {
+      const skillsetTitle = document.getElementById("skillSetTitle");
+      if (skillsetTitle) {
+        skillsetTitle.scrollIntoView({ behavior: "smooth" });
+      }
+    }, 50);
   });
 }

@@ -11,7 +11,7 @@ export function learnMoreSection() {
   learnMoreTextContainer.classList.add("learnMoreTextContainer");
 
   const learnMoreTitle = document.createElement("h4");
-  learnMoreTitle.id = "aboutTitle";
+  learnMoreTitle.id = "skillSetTitle";
   learnMoreTitle.classList.add("aboutTitle", "learnMoreTitle");
   learnMoreTitle.innerText = "Skillset";
 
