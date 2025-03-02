@@ -1,3 +1,5 @@
+import { hideCursor } from "/js/app/components/customCursor/hideCursor.js";
+
 const cursorRocket = document.createElement("div");
 cursorRocket.classList.add("rocketCursor");
 
@@ -22,4 +24,6 @@ document.body.appendChild(cursorRocket);
 export const moveCursor = document.addEventListener("mousemove", (e) => {
   cursorRocket.style.left = `${e.clientX}px`;
   cursorRocket.style.top = `${e.clientY}px`;
+
+  hideCursor(cursorRocket);
 });
