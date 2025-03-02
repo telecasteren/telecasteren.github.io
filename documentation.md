@@ -48,6 +48,11 @@ window.location.replace("#home");
 }
 ```
 
+### Custom cursor:
+
+I learnt how to utilise "mousemove" to create a custom cursor, so I thought it cool to make a simple rocket ship cursor. I got great help in this article:</br>
+https://www.freecodecamp.org/news/how-to-make-a-custom-mouse-cursor-with-css-and-javascript/
+
 ---
 
 ## Resources:
@@ -57,3 +62,5 @@ window.location.replace("#home");
 - https://stackoverflow.com/questions/37105745/how-can-i-history-pushstate-and-then-immediately-go-to-the-page-in-the-url-bar
 
 - https://developer.mozilla.org/en-US/docs/Web/Media/Guides/Formats/Video_codecs
+
+- https://www.freecodecamp.org/news/how-to-make-a-custom-mouse-cursor-with-css-and-javascript/
