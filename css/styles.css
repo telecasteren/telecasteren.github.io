@@ -26,7 +26,6 @@
 
 /* ABOUT */
 @import url(/css/imports/about/aboutSection.css);
-@import url(/css/imports/about/aboutTitle.css);
 @import url(/css/imports/about/skillset/skillset.css);
 @import url(/css/imports/about/skillset/rangeInputs.css);
 
@@ -36,7 +35,7 @@ body {
   padding: 0;
   overflow-x: hidden;
   box-sizing: border-box;
-  font-family: "Open sans", serif;
+  font-family: "Poppins";
   color: var(--primary-text);
   background-color: var(--background);
 

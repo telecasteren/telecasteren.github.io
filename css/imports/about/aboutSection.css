@@ -2,18 +2,24 @@
   margin: 180px 0 0 0;
 }
 
+.aboutTitle {
+  width: 180px;
+  border-bottom: 2px solid var(--accent-color);
+}
+
 #aboutTitle {
   font-weight: 400;
   font-size: 1.4rem;
 }
 
 #aboutText {
+  font-family: "Open sans", serif;
   font-weight: lighter;
   font-size: 1.2rem;
 }
 
 #aboutText span {
-  font-weight: 400;
+  font-weight: 500;
 }
 
 #closeAbout {

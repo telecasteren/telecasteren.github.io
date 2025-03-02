@@ -12,7 +12,7 @@
 }
 
 .skillText {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 1.2rem;
   max-width: 450px;
   flex: 1 1 300px;
@@ -28,8 +28,7 @@
 }
 
 .skill-label {
-  font-weight: 400;
-  white-space: nowrap;
+  font-weight: 200;
 }
 
 @media (max-width: 1024px) {

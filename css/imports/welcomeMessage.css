@@ -16,14 +16,17 @@
 
 #title {
   font-size: 1.5rem;
+  font-weight: 300;
 }
 
 #subMessage {
   font-size: 2rem;
+  font-weight: 200;
 }
 
 #landingMessage {
   font-size: 1.2rem;
+  font-weight: 200;
 }
 
 #landingMessage span {
@@ -35,7 +38,6 @@
 #landingMessage {
   width: 100%;
   margin: 0;
-  font-weight: lighter;
   transition: font-size 0.3s ease-in-out;
 }
 

@@ -1,7 +1,7 @@
 export function hideCursor(rocketCursor) {
   document
     .querySelectorAll(
-      "input, textarea, button, a, .nav-li, .glowBorderBtn, #closeAbout"
+      "input, textarea, button, a, .nav-li, .cardsContainer, .glowBorderBtn, #closeAbout"
     )
     .forEach((btn) => {
       btn.addEventListener("mouseenter", () => {
