@@ -1,5 +1,5 @@
 import { aboutTexts } from "/js/app/landing/about/aboutText.js";
-import { learnMoreBtn } from "/js/app/landing/about/learnMore/learnMoreBtn.js";
+import { skillsBtn } from "/js/app/landing/about/skillset/skillsBtn.js";
 import { closeAboutBtn } from "/js/app/eventListeners/landing/closeAbout.js";
 
 export function aboutContent() {
@@ -33,6 +33,6 @@ export function aboutContent() {
   section.appendChild(closeAbout);
   landingContent.appendChild(section);
 
-  learnMoreBtn();
+  skillsBtn();
   closeAboutBtn();
 }

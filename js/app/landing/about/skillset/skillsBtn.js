@@ -1,25 +1,25 @@
-import { learnMoreSection } from "/js/app/landing/about/learnMore/learnMoreSection.js";
+import { skillsetSection } from "/js/app/landing/about/skillset/skillsetSection.js";
 
-export function learnMoreBtn() {
+export function skillsBtn() {
   const aboutText = document.querySelector(".textContainer");
 
   const buttonContainer = document.createElement("div");
   buttonContainer.className = "buttonContainer";
 
-  const learnMoreBtn = document.createElement("div");
-  learnMoreBtn.classList.add("learnMoreBtn", "glowBorderBtn");
-  learnMoreBtn.innerText = "Learn more";
+  const skillsButton = document.createElement("div");
+  skillsButton.classList.add("skillsButton", "glowBorderBtn");
+  skillsButton.innerText = "Skillset";
 
   const aboutLi = document.getElementById("aboutLi");
   if (aboutLi && aboutLi.classList.contains("active")) {
-    buttonContainer.appendChild(learnMoreBtn);
+    buttonContainer.appendChild(skillsButton);
     aboutText.appendChild(buttonContainer);
   }
 
-  learnMoreBtn.addEventListener("click", () => {
-    learnMoreSection();
+  skillsButton.addEventListener("click", () => {
+    skillsetSection();
 
-    if (learnMoreSection) {
+    if (skillsetSection) {
       buttonContainer.classList.add("hidden");
     } else {
       buttonContainer.classList.remove("hidden");

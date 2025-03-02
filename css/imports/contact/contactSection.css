@@ -67,6 +67,11 @@ input[type="Submit"]:hover {
   font-weight: lighter;
 }
 
+#contactList {
+  display: grid;
+  gap: 10px;
+}
+
 #contact-li a {
   color: var(--primary-text);
 }

@@ -1,19 +1,19 @@
-import { skillSet } from "/js/app/landing/about/learnMore/skills/skillset.js";
-import { skillRanges } from "/js/app/landing/about/learnMore/skills/skillRanges.js";
+import { skillSet } from "/resources/skills/skillset.js";
+import { skillRanges } from "/resources/skills/skillRanges.js";
 
-export function learnMoreSection() {
+export function skillsetSection() {
   const aboutText = document.querySelector(".textContainer");
 
   const section = document.createElement("section");
-  section.className = "learnMoreSection";
+  section.className = "skillsetSection";
 
-  const learnMoreTextContainer = document.createElement("section");
-  learnMoreTextContainer.classList.add("learnMoreTextContainer");
+  const skillsetTextContainer = document.createElement("section");
+  skillsetTextContainer.classList.add("skillsetTextContainer");
 
-  const learnMoreTitle = document.createElement("h4");
-  learnMoreTitle.id = "skillSetTitle";
-  learnMoreTitle.classList.add("aboutTitle", "learnMoreTitle");
-  learnMoreTitle.innerText = "Skillset";
+  const skillSetTitle = document.createElement("h4");
+  skillSetTitle.id = "skillSetTitle";
+  skillSetTitle.classList.add("aboutTitle");
+  skillSetTitle.innerText = "Skillset";
 
   const skillContainer = document.createElement("div");
   skillContainer.className = "skillContainer";
@@ -21,7 +21,6 @@ export function learnMoreSection() {
   skillSet.forEach((skill, index) => {
     const skillSection = document.createElement("div");
     skillSection.className = skill.className;
-    skillSection.classList.add("learnMoreText");
 
     const title = document.createElement("p");
     title.innerHTML = skill.content;
@@ -55,9 +54,9 @@ export function learnMoreSection() {
     skillContainer.appendChild(skillSection);
   });
 
-  learnMoreTextContainer.appendChild(skillContainer);
-  learnMoreTextContainer.prepend(learnMoreTitle);
-  section.appendChild(learnMoreTextContainer);
+  skillsetTextContainer.appendChild(skillContainer);
+  skillsetTextContainer.prepend(skillSetTitle);
+  section.appendChild(skillsetTextContainer);
   aboutText.appendChild(section);
 
   // Skill range values updated here

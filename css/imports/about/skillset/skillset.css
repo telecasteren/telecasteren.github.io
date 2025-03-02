@@ -8,17 +8,14 @@
 #skillSetTitle {
   font-weight: 400;
   font-size: 1.4rem;
+  margin-top: 40px;
 }
 
-.learnMoreText {
-  font-weight: lighter;
+.skillText {
+  font-weight: 500;
   font-size: 1.2rem;
   max-width: 450px;
   flex: 1 1 300px;
-}
-
-.learnMoreText span {
-  font-weight: 400;
 }
 
 .skill-wrapper {
@@ -35,13 +32,6 @@
   white-space: nowrap;
 }
 
-.rangeInput {
-  border: 0;
-  box-shadow: none;
-  max-width: 200px;
-  flex-grow: 1;
-}
-
 @media (max-width: 1024px) {
   .skillContainer {
     gap: 20px 100px;
@@ -54,11 +44,7 @@
     gap: 20px;
   }
 
-  .learnMoreText {
+  .skillText {
     max-width: 300px;
-  }
-
-  .rangeInput {
-    max-width: 150px;
   }
 }
