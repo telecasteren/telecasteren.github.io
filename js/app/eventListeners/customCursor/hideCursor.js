@@ -1,15 +1,15 @@
-export function hideCursor(cursorRocket) {
+export function hideCursor(rocketCursor) {
   document
     .querySelectorAll(
       "input, textarea, button, a, .nav-li, .glowBorderBtn, #closeAbout"
     )
     .forEach((btn) => {
       btn.addEventListener("mouseenter", () => {
-        cursorRocket.style.display = "none";
+        rocketCursor.style.display = "none";
       });
 
       btn.addEventListener("mouseleave", () => {
-        cursorRocket.style.display = "block";
+        rocketCursor.style.display = "block";
       });
     });
 }

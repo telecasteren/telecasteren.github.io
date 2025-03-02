@@ -1,3 +1,5 @@
+import { displayCustomCursor } from "/js/app/components/customCursor/cursor.js";
+
 export function switchColorMode() {
   const colorModes = ["light", "dark"];
 
@@ -26,5 +28,6 @@ export function switchColorMode() {
   document.body.classList.add(nextColor);
 
   window.localStorage.setItem("colorMode", nextColor);
+  displayCustomCursor(nextColor);
 }
 document.addEventListener("DOMContentLoaded", switchColorMode);
