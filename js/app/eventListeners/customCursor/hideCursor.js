@@ -12,4 +12,12 @@ export function hideCursor(rocketCursor) {
         rocketCursor.style.display = "block";
       });
     });
+
+  window.addEventListener("resize", function () {
+    if (window.innerWidth < 1024) {
+      rocketCursor.style.display = "none";
+    } else {
+      rocketCursor.style.display = "block";
+    }
+  });
 }

@@ -14,7 +14,7 @@
 @import url(/css/imports/components/buttons/skillsButton.css);
 
 /* HOME */
-@import url(/css/imports/welcomeMessage.css);
+@import url(/css/imports/landing.css);
 
 /* PROJECTS */
 @import url(/css/imports/projects/textContent.css);
