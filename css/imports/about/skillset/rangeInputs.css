@@ -3,11 +3,12 @@
   appearance: none;
   outline: none;
   cursor: default;
-
   border: 0;
   box-shadow: none;
   max-width: 200px;
   flex-grow: 1;
+
+  background: transparent;
 }
 
 .rangeInput::-webkit-slider-runnable-track {

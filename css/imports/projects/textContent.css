@@ -1,5 +1,6 @@
 #project-textContainer {
   margin: 0 0 0 80px;
+  padding-top: 20px;
 }
 
 #featuredTitle {
@@ -7,15 +8,7 @@
   font-size: 2rem;
 }
 
-.portfolio-content {
-  padding-top: 20px;
-}
-
 @media screen and (max-width: 891px) {
-  .portfolio-content {
-    padding-top: 50px;
-  }
-
   #project-textContainer {
     margin: 0 20px 0 20px;
   }

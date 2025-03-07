@@ -15,9 +15,9 @@ export function welcomeMessage() {
 
   const subMessage = document.createElement("h2");
   subMessage.id = "subMessage";
-  subMessage.innerText = `
-  I'm a web developer from Norway.
-  I'm also notoriously curious about everything.`;
+  subMessage.innerHTML = `
+  I'm a <span>web developer</span> from Norway.
+  I'm also <span>notoriously curious</span> about everything.`;
 
   const message = document.createElement("h3");
   message.id = "landingMessage";
