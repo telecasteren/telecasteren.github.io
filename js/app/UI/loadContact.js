@@ -1,5 +1,6 @@
 import { pageContent, portfolioContent } from "/js/app/utils/constants.js";
 import { colorModeToggle } from "/js/app/components/colorModes/switch.js";
+import { hideCursor } from "/js/app/eventListeners/customCursor/hideCursor.js";
 import { displayContactPage } from "/js/app/contact/displayContactPage.js";
 
 export function loadContact() {
@@ -21,5 +22,6 @@ export function loadContact() {
   pageContent.innerHTML = "";
 
   colorModeToggle();
+  hideCursor();
   displayContactPage();
 }

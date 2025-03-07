@@ -51,11 +51,13 @@ input[type="Submit"] {
   width: 80px;
   height: auto;
   color: white;
+  transition: transform 0.25s, box-shadow 0.25s ease-in-out;
 }
 
 input[type="Submit"]:hover {
-  transform: scale(1.05);
+  transform: scale(0.9);
   filter: brightness(105%);
+  box-shadow: 2px 5px 0 0 var(--box-shadow);
 }
 
 #contactTitle {
