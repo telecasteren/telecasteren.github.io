@@ -33,7 +33,7 @@
 }
 
 .card:hover {
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.4);
 }
 
 .card img {
@@ -43,8 +43,13 @@
   border: 1px solid var(--accent-color);
 }
 
+#project-desc {
+  font-weight: 300;
+}
+
 #project-desc a {
   color: var(--primary-text);
+  font-weight: 600;
 }
 
 #project-desc a:hover {
