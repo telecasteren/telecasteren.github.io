@@ -4,6 +4,11 @@
 
 #featuredTitle {
   font-weight: 500;
+  font-size: 2rem;
+}
+
+.portfolio-content {
+  padding-top: 20px;
 }
 
 @media screen and (max-width: 891px) {

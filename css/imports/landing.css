@@ -4,7 +4,6 @@
 
 .welcome-content {
   display: flex;
-  justify-content: center;
   align-items: center;
   gap: 50px;
 }
@@ -15,17 +14,17 @@
 }
 
 #title {
-  font-size: 1.5rem;
-  font-weight: 300;
+  font-size: 3rem;
+  font-weight: 100;
 }
 
 #subMessage {
-  font-size: 2rem;
-  font-weight: 200;
+  font-size: 2.5rem;
+  font-weight: 300;
 }
 
 #landingMessage {
-  font-size: 1.2rem;
+  font-size: 2rem;
   font-weight: 200;
 }
 
@@ -77,6 +76,20 @@
     width: 200px;
     height: auto;
     margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #title {
+    font-size: 1.5rem;
+  }
+
+  #subMessage {
+    font-size: 2rem;
+  }
+
+  #landingMessage {
+    font-size: 1.2rem;
   }
 }
 

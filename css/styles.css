@@ -45,7 +45,7 @@ body {
 .main-section {
   display: flex;
   flex-direction: column;
-  margin: 4%;
+  margin: 2% 4%;
 }
 
 .hidden {
