@@ -9,9 +9,8 @@ export function skillRanges() {
   document.getElementById("range-1-Frameworks").value = 5;
 
   // DEVOPS & INFRASTRUCTURE SKILLS
-  document.getElementById("range-2-DevOps").value = 40;
   document.getElementById("range-2-Infrastructure").value = 30;
-  document.getElementById("range-2-Databases").value = 60;
+  document.getElementById("range-2-Databases").value = 50;
 
   // BUSINESS AND MANAGEMENT SKILLS
   document.getElementById("range-3-Project Management").value = 70;

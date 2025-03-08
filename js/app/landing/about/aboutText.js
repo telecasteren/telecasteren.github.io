@@ -15,6 +15,6 @@ export const aboutTexts = [
     className: "efficientText",
     content: `
       <span>Efficient</span><br/>
-      I value efficiency in everything I do. There is always a smarter way to achieve the best results, and I am here to find them. Whether by optimizing processes, reducing unnecessary steps, or improving workflow. Although I appreciate the occasional thinking pause, I try making the most of my time and resources.`,
+      I value efficiency in everything I do. There is always a smarter way to achieve the best results, and I am here to find them. I enjoy the strategic thinking behind design and development, but I have the most fun bringing ideas to life and making the most of my time and resources.`,
   },
 ];
