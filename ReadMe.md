@@ -1,6 +1,6 @@
 # Tele Caster Nilsen's portfolio
 
-![image](resources/images/tcn-portfolio-page.webp)
+![image](resources/images/tcn-portfolio-page-home.webp)
 
 **Live site:** [telecasteren](https://telecasteren.github.io/)
 
