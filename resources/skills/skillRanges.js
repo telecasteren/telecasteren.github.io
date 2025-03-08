@@ -15,5 +15,5 @@ export function skillRanges() {
   // BUSINESS AND MANAGEMENT SKILLS
   document.getElementById("range-3-Project Management").value = 70;
   document.getElementById("range-3-Communication").value = 95;
-  document.getElementById("range-3-Customer Service").value = 95;
+  document.getElementById("range-3-Support").value = 90;
 }

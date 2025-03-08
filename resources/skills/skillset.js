@@ -17,6 +17,6 @@ export const skillSet = [
   {
     className: "skillText",
     content: `Business & Management`,
-    bullets: ["Project Management", "Communication", "Customer Service"],
+    bullets: ["Project Management", "Communication", "Support"],
   },
 ];

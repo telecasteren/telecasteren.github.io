@@ -2,7 +2,7 @@ export function hideCursor(rocketCursor) {
   if (!rocketCursor) return;
 
   const buttonElements = document.querySelectorAll(
-    "input, textarea, button, a, .nav-li, .cardsContainer, .glowBorderBtn, #closeAbout"
+    "input, textarea, button, a, .nav-li, .cardsContainer, .glowBorderBtn, #closeAbout,"
   );
 
   buttonElements.forEach((btn) => {

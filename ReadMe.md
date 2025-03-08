@@ -11,21 +11,33 @@ Whilst showcasing three of my bigger website projects, the portfolio itself also
 
 **Projects showcased on site:**
 
-- Unwired - [unwired]()
-- Gamehub - [gamehub]()
-- Community Science Museum - [communitysciencemuseum]()
+- Unwired - [unwired](https://unwired.netlify.app/)
+- Gamehub - [gamehub](https://gamehub-tele.netlify.app/)
+- Community Science Museum - [communitysciencemuseum](https://telecasteren-semester1.netlify.app/)
 
-## Portfolio built with
+## The build
 
 I build websites with **Visual Studio Code** and **Git**.<br/>
-And I tend to experiment with different methods of deployment, in this case the site is deployed with Github pages.
+And I experiment with different methods for deployment, this portfolio is deployed with Github pages.
 
-**Languages:**</br>
+**Languages behind this portfolio:**</br>
 
 - Javascript, HTML and CSS
 
+## Run this project
+
+You can clone the github repo and run it locally on your machine with a Live server extension.
+
+```bash
+git clone git@github.com:telecasteren/telecasteren.github.io
+```
+
 ### Contact:
 
-- [My website - telecasternilsen](https://telecasternilsen.netlify.app/)
+You can contact me through email at the live site:</br>
+[telecasteren](https://telecasteren.github.io/)
+
+Else find me here:
+
 - [GitHub profile](https://github.com/telecasteren)
 - [LinkedIn profile](https://www.linkedin.com/in/tele-caster-nilsen-7002b9249/)

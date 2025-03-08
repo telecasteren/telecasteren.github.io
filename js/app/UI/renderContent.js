@@ -2,9 +2,10 @@ import { loadHome } from "/js/app/UI/loadHome.js";
 import { loadProjects } from "/js/app/UI/loadProjects.js";
 import { loadContact } from "/js/app/UI/loadContact.js";
 import { loadAbout } from "/js/app/UI/loadAbout.js";
+import { closeMobileMenu } from "/js/app/eventListeners/mobileMenuEvents/closeMobileMenu.js";
+import { scrollToTitle } from "/js/app/eventListeners/scrollToTitle.js";
 
 export function renderContent() {
-  const mobileMenu = document.querySelector(".mobileMenu");
   const menuList = document.querySelector(".menuList");
   if (!menuList) return;
 
@@ -17,36 +18,30 @@ export function renderContent() {
     loadHome();
     window.location.hash = "#home";
 
-    menuList.style.maxHeight = "0px";
-    menuList.style.padding = "0";
-    mobileMenu.style.position = "relative";
+    closeMobileMenu();
   });
 
   projectsLi.addEventListener("click", () => {
     loadProjects();
     window.location.hash = "#projects";
 
-    menuList.style.maxHeight = "0px";
-    menuList.style.padding = "0";
-    mobileMenu.style.position = "relative";
+    scrollToTitle("featuredTitle");
+    closeMobileMenu();
   });
 
   contactLi.addEventListener("click", () => {
     loadContact();
     window.location.hash = "#contact";
 
-    menuList.style.maxHeight = "0px";
-    menuList.style.padding = "0";
-    mobileMenu.style.position = "relative";
+    scrollToTitle("contactTitle");
+    closeMobileMenu();
   });
 
   aboutLi.addEventListener("click", () => {
     loadAbout();
     window.location.hash = "#about";
 
-    menuList.style.maxHeight = "0px";
-    menuList.style.padding = "0";
-    mobileMenu.style.position = "relative";
+    closeMobileMenu();
   });
 
   // Making sure URL and content always reflect the correct pathname
@@ -70,9 +65,5 @@ export function renderContent() {
     loadAbout();
   } else {
     loadHome();
-  }
-
-  if (window.location.pathname.includes("index.html")) {
-    window.location.replace("#home");
   }
 }
