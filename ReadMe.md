@@ -37,7 +37,7 @@ git clone git@github.com:telecasteren/telecasteren.github.io
 You can contact me through email at the live site:</br>
 [telecasteren](https://telecasteren.github.io/)
 
-Else find me here:
+Else you can find me here:
 
 - [GitHub profile](https://github.com/telecasteren)
 - [LinkedIn profile](https://www.linkedin.com/in/tele-caster-nilsen-7002b9249/)

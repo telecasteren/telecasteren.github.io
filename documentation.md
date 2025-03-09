@@ -50,7 +50,7 @@ window.location.replace("#home");
 
 ### Custom cursor:
 
-I learnt how to utilise "mousemove" to create a custom cursor, so I thought it cool to make a simple rocket ship cursor. I got great help in this article:</br>
+During this project, I learnt how to utilise "mousemove" to create a custom cursor, so I thought it cool to make a simple rocket ship cursor. I got great help in this article:</br>
 https://www.freecodecamp.org/news/how-to-make-a-custom-mouse-cursor-with-css-and-javascript/
 
 ---
