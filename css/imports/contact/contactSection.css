@@ -70,7 +70,18 @@ input[type="Submit"]:hover {
   font-size: 1.2rem;
 }
 
+#li-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact-icon {
+  color: var(--contactIcon);
+}
+
 #contactList {
+  list-style-type: none;
   display: grid;
   gap: 10px;
 }

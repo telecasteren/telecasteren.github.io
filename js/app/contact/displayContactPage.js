@@ -20,11 +20,21 @@ export function displayContactPage() {
   const list = document.createElement("ul");
   list.id = "contactList";
 
-  contactPaths.forEach((path) => {
+  contactPaths.forEach((contact) => {
+    const liContainer = document.createElement("div");
+    liContainer.id = "li-container";
+
+    const icon = document.createElement("div");
+    icon.className = "contact-icon";
+    icon.innerHTML = contact.icon;
+
     const listElement = document.createElement("li");
     listElement.id = "contact-li";
-    listElement.innerHTML = path;
-    list.appendChild(listElement);
+    listElement.innerHTML = contact.path;
+
+    liContainer.appendChild(icon);
+    liContainer.appendChild(listElement);
+    list.appendChild(liContainer);
   });
 
   contactPageContainer.appendChild(title);
