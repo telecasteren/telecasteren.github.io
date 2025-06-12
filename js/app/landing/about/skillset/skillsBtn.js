@@ -1,7 +1,7 @@
 import { skillsetSection } from "/js/app/landing/about/skillset/skillsetSection.js";
 
 export function skillsBtn() {
-  const aboutText = document.querySelector(".textContainer");
+  const aboutText = document.querySelector(".experienceContainer");
 
   const buttonContainer = document.createElement("div");
   buttonContainer.className = "buttonContainer";

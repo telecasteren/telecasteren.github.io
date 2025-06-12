@@ -2,7 +2,7 @@ import { skillSet } from "/resources/skills/skillset.js";
 import { skillRanges } from "/resources/skills/skillRanges.js";
 
 export function skillsetSection() {
-  const aboutText = document.querySelector(".textContainer");
+  const aboutText = document.querySelector(".experienceContainer");
 
   const section = document.createElement("section");
   section.className = "skillsetSection";

@@ -4,16 +4,16 @@ export function skillRanges() {
   document.getElementById("range-0-Frameworks").value = 50;
   document.getElementById("range-0-UX/UI").value = 70;
 
+  // BUSINESS AND MANAGEMENT SKILLS
+  document.getElementById("range-1-Project Management").value = 70;
+  document.getElementById("range-1-Communication").value = 90;
+  document.getElementById("range-1-Support").value = 90;
+
   // BACK-END SKILLS
-  document.getElementById("range-1-Languages").value = 20;
-  document.getElementById("range-1-Frameworks").value = 5;
+  document.getElementById("range-2-Languages").value = 30;
+  document.getElementById("range-2-Frameworks").value = 15;
 
   // DEVOPS & INFRASTRUCTURE SKILLS
-  document.getElementById("range-2-Infrastructure").value = 30;
-  document.getElementById("range-2-Databases").value = 50;
-
-  // BUSINESS AND MANAGEMENT SKILLS
-  document.getElementById("range-3-Project Management").value = 70;
-  document.getElementById("range-3-Communication").value = 95;
-  document.getElementById("range-3-Support").value = 90;
+  document.getElementById("range-3-Infrastructure").value = 40;
+  document.getElementById("range-3-Databases").value = 50;
 }

@@ -13,6 +13,7 @@ export function renderContent() {
   const projectsLi = document.getElementById("projectsLi");
   const contactLi = document.getElementById("contactLi");
   const aboutLi = document.getElementById("aboutLi");
+  const keywords = document.getElementById("landingMessage");
 
   homeLi.addEventListener("click", () => {
     loadHome();
@@ -38,6 +39,13 @@ export function renderContent() {
   });
 
   aboutLi.addEventListener("click", () => {
+    loadAbout();
+    window.location.hash = "#about";
+
+    closeMobileMenu();
+  });
+
+  keywords.addEventListener("click", () => {
     loadAbout();
     window.location.hash = "#about";
 

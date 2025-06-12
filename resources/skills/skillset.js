@@ -6,6 +6,11 @@ export const skillSet = [
   },
   {
     className: "skillText",
+    content: `Business & Management`,
+    bullets: ["Project Management", "Communication", "Support"],
+  },
+  {
+    className: "skillText",
     content: `Back-end Development`,
     bullets: ["Languages", "Frameworks"],
   },
@@ -13,10 +18,5 @@ export const skillSet = [
     className: "skillText",
     content: `DevOps & Infrastructure`,
     bullets: ["Infrastructure", "Databases"],
-  },
-  {
-    className: "skillText",
-    content: `Business & Management`,
-    bullets: ["Project Management", "Communication", "Support"],
   },
 ];

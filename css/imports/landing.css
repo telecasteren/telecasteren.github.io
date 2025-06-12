@@ -48,8 +48,6 @@
 #landingImage {
   width: 300px;
   height: auto;
-  box-shadow: 8px 8px 0 0 #000000;
-  border-radius: 50%;
 }
 
 @media screen and (max-width: 1200px) {

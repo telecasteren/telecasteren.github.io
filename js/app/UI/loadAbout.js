@@ -31,6 +31,9 @@ export function loadAbout() {
   const textContainer = document.querySelector(".textContainer");
   textContainer.classList.toggle("hidden");
 
+  const experienceContainer = document.querySelector(".experienceContainer");
+  experienceContainer.classList.toggle("hidden");
+
   if (!textContainer.classList.contains("hidden")) {
     textContainer.scrollIntoView({ behavior: "smooth" });
   }

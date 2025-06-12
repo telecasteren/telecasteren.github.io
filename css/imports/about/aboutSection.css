@@ -7,19 +7,24 @@
   border-bottom: 2px solid var(--accent-color);
 }
 
-#aboutTitle {
+#aboutTitle,
+#experienceTitle {
   font-weight: 400;
   font-size: 1.4rem;
 }
 
 #aboutText {
   font-family: "Open sans", serif;
-  font-weight: lighter;
+  font-weight: 350;
   font-size: 1.2rem;
 }
 
 #aboutText span {
   font-weight: 500;
+}
+
+.experienceText i {
+  font-weight: lighter;
 }
 
 #closeAbout {
