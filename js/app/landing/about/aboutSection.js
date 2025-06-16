@@ -10,23 +10,24 @@ export function aboutContent() {
   section.className = "aboutSection";
 
   const textContainer = document.createElement("section");
-  textContainer.classList.add("textContainer", "hidden");
+  textContainer.classList.add("textContainer", "scroll-to-el");
 
   const aboutTitle = document.createElement("h4");
   aboutTitle.id = "aboutTitle";
-  aboutTitle.className = "aboutTitle";
+  aboutTitle.classList.add("aboutTitle", "hidden-scroll");
   aboutTitle.innerText = "About me";
 
   aboutTexts.forEach((textContent) => {
     const textElement = document.createElement("p");
     textElement.id = "aboutText";
     textElement.className = textContent.className;
+    textElement.classList.add("hidden-scroll");
     textElement.innerHTML = textContent.content;
     textContainer.appendChild(textElement);
   });
 
   const experienceContainer = document.createElement("section");
-  experienceContainer.classList.add("experienceContainer", "hidden");
+  experienceContainer.classList.add("experienceContainer", "hidden-scroll");
 
   const experienceTitle = document.createElement("h4");
   experienceTitle.id = "experienceTitle";
@@ -51,6 +52,23 @@ export function aboutContent() {
   section.appendChild(experienceContainer);
   section.appendChild(closeAbout);
   landingContent.appendChild(section);
+
+  // const observer = new IntersectionObserver((entries, observer) => {
+  //   entries.forEach((entry) => {
+  //     if (entry.isIntersecting) {
+  //       setTimeout(() => {
+  //         entry.target.classList.remove("hidden-scroll");
+  //         entry.target.classList.add("view-on-scroll");
+  //       }, 400);
+  //       observer.unobserve(entry.target);
+  //     }
+  //   });
+  // });
+
+  // section.querySelectorAll(".hidden-scroll").forEach((el, i) => {
+  //   observer.observe(el);
+  //   el.style.transitionDelay = `${i * 200}ms`;
+  // });
 
   if (experienceContainer) skillsBtn();
   closeAboutBtn();

@@ -43,6 +43,14 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+.not-found-link {
+  color: var(--card-container);
+}
+
+.not-found-link:hover {
+  color: var(--accent-color);
+}
+
 .main-section {
   display: flex;
   flex-direction: column;
@@ -52,6 +60,20 @@ body {
 .hidden {
   display: none;
 }
+
+/* .hidden-scroll {
+  opacity: 0;
+  filter: blur(4px);
+  transform: translateY(10px);
+  transition: opacity 0.8s cubic-bezier(0.4, 0, 0.2, 1),
+    transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.view-on-scroll {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateY(0);
+} */
 
 .page-content {
   margin-top: 50px;

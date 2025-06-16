@@ -11,6 +11,7 @@
 .welcomeMessage {
   flex: 1;
   max-width: 700px;
+  margin-top: 50px;
 }
 
 #title {

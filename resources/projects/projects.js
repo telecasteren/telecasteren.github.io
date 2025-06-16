@@ -1,6 +1,18 @@
 const projects = [
   {
     id: "project1",
+    title: "Foodiegram",
+    img_src: "/resources/images/Screenshot-foodiegram-welcome.webp",
+    img_alt: "A social media platform",
+    proj_url: "404.html",
+    proj_video: "/resources/videos/foodiegram.mov",
+    git_repo: "https://github.com/telecasteren/social-app-noroff/tree/js2",
+    description:
+      "Foodiegram is a social media platform for foodies. Share your favourite recipe or discover the hidden restaurants.",
+  },
+
+  {
+    id: "project2",
     title: "Unwired",
     img_src: "/resources/images/unwired-blob-dark.webp",
     img_alt: "A tech-blog website",
@@ -13,7 +25,7 @@ const projects = [
   },
 
   {
-    id: "project2",
+    id: "project3",
     title: "GameHub",
     img_src: "/resources/images/gamehub-blob.webp",
     img_alt: "An ecommerce video-game website",
@@ -26,7 +38,7 @@ const projects = [
   },
 
   {
-    id: "project3",
+    id: "project4",
     title: "Community Science Museum",
     img_src: "/resources/images/cmuseum-blob.webp",
     img_alt: "A website for a community museum",

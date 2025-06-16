@@ -39,8 +39,8 @@ export function renderContent() {
   });
 
   aboutLi.addEventListener("click", () => {
-    loadAbout();
     window.location.hash = "#about";
+    loadAbout();
 
     closeMobileMenu();
   });
