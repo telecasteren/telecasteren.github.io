@@ -32,7 +32,7 @@ export function aboutContent() {
   const experienceTitle = document.createElement("h4");
   experienceTitle.id = "experienceTitle";
   experienceTitle.className = "aboutTitle";
-  experienceTitle.innerText = "Experience";
+  experienceTitle.innerText = "Background";
 
   experience.forEach((text) => {
     const textElement = document.createElement("p");

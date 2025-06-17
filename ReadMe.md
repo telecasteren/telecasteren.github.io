@@ -1,26 +1,27 @@
 # Tele Caster Nilsen's portfolio
 
-![image](resources/images/tcn-portfolio-page-home.webp)
+![image](resources/images/portfolio-landing.webp)
 
 **Live site:** [telecasteren](https://telecasteren.github.io/)
 
 ## Description
 
 I'm Tele Caster Nilsen and this is my portfolio.<br/>
-Whilst showcasing three of my bigger website projects, the portfolio itself also is built entirely by me.
+Whilst showcasing some of my projects, the portfolio itself also is built entirely by me.
 
 **Projects showcased on site:**
 
-- Unwired - [unwired](https://unwired.netlify.app/)
-- Gamehub - [gamehub](https://gamehub-tele.netlify.app/)
-- Community Science Museum - [communitysciencemuseum](https://telecasteren-semester1.netlify.app/)
+- Foodiegram - [foodiegram code](https://github.com/telecasteren/social-app-noroff)
+- Unwired - [unwired live site](https://unwired.netlify.app/)
+- Gamehub - [gamehub live site](https://gamehub-tele.netlify.app/)
+- Community Science Museum - [communitysciencemuseum live site](https://telecasteren-semester1.netlify.app/)
 
 ## The build
 
 I build websites with **Visual Studio Code** and **Git**.<br/>
-And I experiment with different methods for deployment, this portfolio is deployed with Github pages.
+This particular portfolio is deployed with Github pages.
 
-**Languages behind this portfolio:**</br>
+**Languages:**</br>
 
 - Javascript, HTML and CSS
 
@@ -35,7 +36,7 @@ git clone git@github.com:telecasteren/telecasteren.github.io
 ### Contact:
 
 You can contact me through email at the live site:</br>
-[telecasteren](https://telecasteren.github.io/)
+[telecasteren](https://telecasteren.github.io/#contact)
 
 Else you can find me here:
 
