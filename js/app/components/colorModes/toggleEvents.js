@@ -1,6 +1,8 @@
 import { displayCustomCursor } from "/js/app/components/customCursor/cursor.js";
 
 export function switchColorMode() {
+  const toggleSwitch = document.querySelector(".toggleSwitch");
+
   const colorModes = ["light", "dark"];
 
   const systemDefault = window.matchMedia("prefers-color-scheme: dark").matches
@@ -29,5 +31,10 @@ export function switchColorMode() {
 
   window.localStorage.setItem("colorMode", nextColor);
   displayCustomCursor(nextColor);
+
+  if (toggleSwitch) {
+    toggleSwitch.innerText =
+      nextColor === "dark" ? "Turn the light on" : "Turn the light off";
+  }
 }
 document.addEventListener("DOMContentLoaded", switchColorMode);
