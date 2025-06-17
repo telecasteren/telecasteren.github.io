@@ -1,5 +1,5 @@
-import { aboutTexts } from "/js/app/landing/about/aboutText.js";
-import { experience } from "/js/app/landing/about/experience.js";
+import { aboutTexts } from "/resources/texts/aboutText.js";
+import { experience } from "/resources/texts/experience.js";
 import { skillsBtn } from "/js/app/landing/about/skillset/skillsBtn.js";
 import { closeAboutBtn } from "/js/app/eventListeners/landing/closeAbout.js";
 

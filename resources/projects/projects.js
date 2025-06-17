@@ -5,7 +5,7 @@ const projects = [
     img_src: "/resources/images/Screenshot-foodiegram-welcome.webp",
     img_alt: "A social media platform",
     proj_url: "404.html",
-    proj_video: "/resources/videos/foodiegram.mov",
+    proj_video: "/resources/videos/foodiegram.mp4",
     git_repo: "https://github.com/telecasteren/social-app-noroff/tree/js2",
     description:
       "Foodiegram is a social media platform for foodies. Share your favourite recipe or discover the hidden restaurants.",
