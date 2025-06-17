@@ -1,4 +1,4 @@
-import { aboutTexts } from "/resources/texts/aboutText.js";
+import { keywords } from "/resources/texts/keywords.js";
 import { experience } from "/resources/texts/experience.js";
 import { skillsBtn } from "/js/app/landing/about/skillset/skillsBtn.js";
 import { closeAboutBtn } from "/js/app/eventListeners/landing/closeAbout.js";
@@ -17,7 +17,7 @@ export function aboutContent() {
   aboutTitle.classList.add("aboutTitle", "hidden-scroll");
   aboutTitle.innerText = "About me";
 
-  aboutTexts.forEach((textContent) => {
+  keywords.forEach((textContent) => {
     const textElement = document.createElement("p");
     textElement.id = "aboutText";
     textElement.className = textContent.className;
