@@ -10,7 +10,7 @@ export function projectText() {
 
   const text = document.createElement("p");
   text.id = "featuredText";
-  text.innerHTML = `I've put together three of my bigger website projects. <span>Hover over the images to get a sneak peak!</span>`;
+  text.innerHTML = `I've put together some of my projects. <span>Hover over the images to get a sneak peak!</span>`;
 
   textContainer.appendChild(title);
   textContainer.appendChild(text);
