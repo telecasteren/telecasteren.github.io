@@ -8,7 +8,7 @@ export const experience = [
   {
     className: "experienceText",
     content: `
-      <span>Project Manager</span> <i>onboarding</i><br/>
+      <span>Project Manager</span> <i>onboarding realm</i><br/>
       Working on small and large projects, digging in databases and training clients to succeed with digital products.<br/>
       Translating client needs to designers and developers, determined to make sure products give high value for users.`,
   },
