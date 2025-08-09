@@ -4,6 +4,7 @@
 @import url(/css/imports/utils/messages/alertMessage.css);
 @import url(/css/imports/utils/messages/formErrors.css);
 @import url(/css/imports/components/navigation/menu.css);
+@import url(/css/imports/components/navigation/mobileMenu.css);
 
 /* COLORMODE */
 @import url(/css/imports/utils/allColors.css);
@@ -68,20 +69,6 @@ body.dark ::selection {
 .hidden {
   display: none;
 }
-
-/* .hidden-scroll {
-  opacity: 0;
-  filter: blur(4px);
-  transform: translateY(10px);
-  transition: opacity 0.8s cubic-bezier(0.4, 0, 0.2, 1),
-    transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.view-on-scroll {
-  opacity: 1;
-  filter: blur(0);
-  transform: translateY(0);
-} */
 
 .page-content {
   margin-top: 50px;

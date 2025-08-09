@@ -9,10 +9,12 @@ export function menu() {
   menuList.className = "menuList";
   menuList.style.maxHeight = "0";
 
-  const mobileMenu = document.createElement("img");
+  const mobileMenu = document.createElement("div");
   mobileMenu.className = "mobileMenu";
-  mobileMenu.src = "/resources/images/hamburger-menu.png";
-  mobileMenu.alt = "Mobile menu";
+  const mobileMenuSr = document.createElement("span");
+  mobileMenuSr.className = "sr-only";
+  mobileMenuSr.textContent = "Open menu";
+  mobileMenu.appendChild(mobileMenuSr);
 
   const home = document.createElement("li");
   home.classList.add("nav-li", "active");

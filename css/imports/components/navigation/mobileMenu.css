@@ -1,0 +1,17 @@
+.mobileMenu {
+  width: 40px;
+  height: 40px;
+  background-image: url("/resources/images/hamburger-menu.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@media (prefers-color-scheme: light) {
+  .mobileMenu {
+    background-image: url("/resources/images/hamburger-menu.png");
+  }
+}
+
+body.dark .mobileMenu {
+  background-image: url("/resources/images/hamburger-menu-white.png");
+}
