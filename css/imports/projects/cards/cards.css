@@ -36,6 +36,16 @@
   background: rgba(0, 0, 0, 0.4);
 }
 
+body.dark .card:hover {
+  box-shadow: 0 0 5px var(--box-sh-dark1), 0 0 10px var(--box-sh-dark2),
+    0 0 15px var(--box-sh-dark3), 0 0 20px var(--box-sh-dark4);
+}
+
+body.light .card:hover {
+  box-shadow: 0 0 5px var(--box-sh-light1), 0 0 10px var(--box-sh-light2),
+    0 0 15px var(--box-sh-light3), 0 0 20px var(--box-sh-light4);
+}
+
 .card img {
   border-radius: 6px;
   width: 100%;
