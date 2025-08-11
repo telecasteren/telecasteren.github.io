@@ -1,30 +1,37 @@
 import { displayCustomCursor } from "/js/app/components/customCursor/cursor.js";
 
-export function switchColorMode() {
+export function defaultColorMode() {
+  const storedColorMode = window.localStorage.getItem("colorMode");
+  const initialColorMode = storedColorMode || "dark";
   const toggleSwitch = document.querySelector(".toggleSwitch");
 
-  const colorModes = ["light", "dark"];
-
-  const systemDefault = window.matchMedia("prefers-color-scheme: dark").matches
-    ? "dark"
-    : "light";
-
-  const storedColorMode = window.localStorage.getItem("colorMode");
-  const initialColorMode = storedColorMode || systemDefault;
-
-  colorModes.forEach((mode) => document.body.classList.remove(mode));
+  ["light", "dark"].forEach((mode) => document.body.classList.remove(mode));
   document.body.classList.add(initialColorMode);
 
   if (!storedColorMode) {
     window.localStorage.setItem("colorMode", initialColorMode);
   }
 
+  displayCustomCursor(initialColorMode);
+
+  if (toggleSwitch) {
+    toggleSwitch.innerText =
+      initialColorMode === "dark" ? "Turn the light on" : "Turn the light off";
+  }
+}
+
+export function switchColorMode() {
+  const toggleSwitch = document.querySelector(".toggleSwitch");
+  const colorModes = ["light", "dark"];
+
   const currentColor = colorModes.find((mode) =>
     document.body.classList.contains(mode)
   );
-  const currentIndex = colorModes.indexOf(currentColor);
-  const nextIndex = (currentIndex + 1) % colorModes.length;
-  const nextColor = colorModes[nextIndex];
+
+  const nextColor = currentColor === "dark" ? "light" : "dark";
+
+  colorModes.forEach((mode) => document.body.classList.remove(mode));
+  document.body.classList.add(nextColor);
 
   colorModes.forEach((mode) => document.body.classList.remove(mode));
   document.body.classList.add(nextColor);
