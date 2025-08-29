@@ -1,5 +1,6 @@
 @import url(/css/imports/components/loader.css);
 @import url(/css/imports/components/cursor.css);
+@import url(/css/imports/utils/messages/errorMessage.css);
 @import url(/css/imports/utils/messages/userMessage.css);
 @import url(/css/imports/utils/messages/alertMessage.css);
 @import url(/css/imports/utils/messages/formErrors.css);
@@ -46,10 +47,12 @@ body {
 
 ::selection {
   background: #7aed07e7;
+  color: #beff7ce7;
 }
 
 body.dark ::selection {
   background: var(--accent-color);
+  color: #4a074a;
 }
 
 .not-found-link {

@@ -1,11 +1,84 @@
-.errorWrapper {
-  justify-content: center;
-  align-content: center;
+/* == Converted from different project with tailwind classes == */
+.user-message-base {
+  position: fixed;
+  top: 1.25rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 24rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  font-size: 0.875rem;
   text-align: center;
-  width: 300px;
-  height: 50px;
-  border-radius: 2px;
-  color: var(--primary-text);
-  border: 2px solid var(--error-border);
-  background-color: var(--error-background);
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -4px rgba(0, 0, 0, 0.1);
+  z-index: 50;
+}
+
+.user-message-title {
+  font-weight: 500;
+}
+
+body.dark .user-message-base {
+  background-color: #1f2937;
+}
+
+/* === INFO === */
+.um-text-info {
+  color: #1e40af;
+}
+.um-bg-info {
+  background-color: #eff6ff;
+}
+
+body.dark .um-dark-text-info {
+  color: #60a5fa;
+}
+
+/* === ERROR === */
+.um-text-error {
+  color: #991b1b;
+}
+.um-bg-error {
+  background-color: #fef2f2;
+}
+
+body.dark .um-dark-text-error {
+  color: #f87171;
+}
+
+/* === SUCCESS === */
+.um-text-success {
+  color: #166534;
+}
+.um-bg-success {
+  background-color: #f0fdf4;
+}
+
+body.dark .um-dark-text-success {
+  color: #4ade80;
+}
+
+/* === WARNING === */
+.um-text-warning {
+  color: #854d0e;
+}
+.um-bg-warning {
+  background-color: #fefce8;
+}
+
+body.dark .um-dark-text-warning {
+  color: #fde047;
+}
+
+/* === ALERT === */
+.um-text-alert {
+  color: #1f2937;
+}
+.um-bg-alert {
+  background-color: rgb(249 250 251);
+}
+
+body.dark .um-dark-text-alert {
+  color: #d1d5db;
 }

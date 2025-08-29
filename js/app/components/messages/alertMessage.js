@@ -1,4 +1,3 @@
-// Alert message component:
 export function alertMessage(text, type = "info", isHtml = false) {
   const alertMessage = document.createElement("div");
   alertMessage.classList.add("alert-message", "alert", `alert-${type}`);

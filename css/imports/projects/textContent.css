@@ -17,6 +17,20 @@
   font-weight: 400;
 }
 
+.featuredLink {
+  color: var(--accent-color);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.featuredLink:hover {
+  text-decoration: underline;
+}
+
+#project-textContainer p {
+  line-height: 1.6;
+  margin-bottom: 1em;
+}
 @media screen and (max-width: 891px) {
   #project-textContainer {
     margin: 0 20px 0 20px;

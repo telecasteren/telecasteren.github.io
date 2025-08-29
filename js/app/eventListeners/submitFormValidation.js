@@ -1,4 +1,8 @@
-import { alertMessage } from "/js/app/utils/validation/alertMessage.js";
+import { alertMessage } from "/js/app/components/messages/alertMessage.js";
+import {
+  userMessage,
+  clearUserMessage,
+} from "/js/app/components/messages/userMessage.js";
 
 export async function submitFormValidation() {
   const formElement = document.querySelector("form");
@@ -31,21 +35,23 @@ export async function submitFormValidation() {
         if (response.ok) {
           alertMessage("Thank you, I'll get back to you soon! 🦀", "info");
         } else {
-          alertMessage(
-            "Couldn't send your inquiry. Please try again.",
-            "warning"
+          userMessage(
+            "warning",
+            "Couldn't send your inquiry. Please try again."
           );
         }
       } catch (error) {
         console.error("Form submission error:", error);
-        alertMessage("Ooops.. Try again later!", "error");
+        userMessage("error", "Well, that was embarrassing.. Please try again.");
       }
     } else {
-      alertMessage(
-        "Please fill out the form correctly and try again 👾",
-        "warning"
+      userMessage(
+        "warning",
+        "Please fill out the form correctly and try again 👾"
       );
     }
+
+    setTimeout(() => clearUserMessage(), 4000);
 
     formElement.reset();
   });

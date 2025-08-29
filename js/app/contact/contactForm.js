@@ -57,7 +57,7 @@ export function contactForm() {
     false,
     true,
     "name",
-    5
+    4
   );
 
   const emailInput = createInput(
@@ -79,7 +79,7 @@ export function contactForm() {
   subjectInput.id = "subject";
   subjectInput.name = "subject";
   subjectInput.placeholder = "Subject";
-  subjectInput.minLength = 10;
+  subjectInput.minLength = 8;
   subjectInput.required = true;
 
   const messageTextarea = document.createElement("textarea");
@@ -108,11 +108,11 @@ export function contactForm() {
 
   // Validate input values
   emailValidation(emailInput);
-  MinLengthValidation(nameInput, 5, "Name must be at least 5 characters.");
+  MinLengthValidation(nameInput, 4, "Name must be at least 4 characters.");
   MinLengthValidation(
     subjectInput,
-    10,
-    "Subject must be at least 10 characters."
+    8,
+    "Subject must be at least 8 characters."
   );
   MinLengthValidation(
     messageTextarea,

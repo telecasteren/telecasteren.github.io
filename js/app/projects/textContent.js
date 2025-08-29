@@ -12,8 +12,13 @@ export function projectText() {
   text.id = "featuredText";
   text.innerHTML = `I've put together some of my projects. <span>Hover over the images to get a sneak peak!</span>`;
 
+  const link = document.createElement("p");
+  link.id = "featuredText";
+  link.innerHTML = `You can find more on <a class="featuredLink" href="https://github.com/telecasteren?tab=repositories" target="_blank">GitHub</a>.`;
+
   textContainer.appendChild(title);
   textContainer.appendChild(text);
+  textContainer.appendChild(link);
 
   portfolioContent.appendChild(textContainer);
 }
