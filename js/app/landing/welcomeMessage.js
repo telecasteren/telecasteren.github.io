@@ -14,6 +14,10 @@ export function welcomeMessage() {
   title.id = "title";
   title.innerText = landingTexts.welcome;
 
+  const location = document.createElement("p");
+  location.id = "location";
+  location.innerHTML = landingTexts.location;
+
   const subMessage = document.createElement("h2");
   subMessage.id = "subMessage";
   subMessage.innerHTML = landingTexts.pitch;
@@ -26,6 +30,7 @@ export function welcomeMessage() {
 
   container.prepend(message);
   container.prepend(subMessage);
+  container.prepend(location);
   container.prepend(title);
   welcomeContent.appendChild(container);
   pageContent.appendChild(welcomeContent);

@@ -2,7 +2,7 @@
 
 ![image](resources/images/portfolio-landing.webp)
 
-**Live site:** [telecasteren](https://telecasteren.github.io/)
+**Live site:** [telecasteren](https://telecasternilsen.com)
 
 ## Description
 
