@@ -44,7 +44,7 @@ const projects = [
     title: "Community Science Museum",
     img_src: "/resources/images/cmuseum-blob.webp",
     img_alt: "A website for a community museum",
-    proj_url: "https://telecasteren-semester1.netlify.app/",
+    proj_url: "https://csm-tele.netlify.app",
     proj_video:
       "/resources/videos/SemProj1-Recording 2025-02-18 at 17.36.06.mp4",
     git_repo:
