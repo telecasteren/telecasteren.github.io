@@ -10,7 +10,7 @@ export function displayLandingImage() {
 
   const img = document.createElement("img");
   img.id = "landingImage";
-  img.src = "/resources/images/tele-avatar-blue-portfolio.webp";
+  img.src = "resources/images/tele-avatar-blue-revised.png";
   img.alt = "A photo of the portfolio owner.";
 
   container.appendChild(img);

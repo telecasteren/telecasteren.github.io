@@ -1,42 +1,21 @@
-# Tele Caster Nilsen's portfolio
+# I'm Tele and this is my portfolio
 
 ![image](resources/images/portfolio-landing.webp)
 
 **Live site:** [telecasteren](https://telecasternilsen.com)
 
-## Description
-
-I'm Tele Caster Nilsen and this is my portfolio.<br/>
-In addition to showcasing some of my projects, the portfolio itself also is built entirely by me.
-
-**Projects showcased on site:**
-
-- Foodiegram - [the code](https://github.com/telecasteren/social-app-noroff)
-- Unwired - [live site](https://unwired.netlify.app/)
-- Gamehub - [live site](https://gamehub-tele.netlify.app/)
-- Community Science Museum - [live site](https://telecasteren-semester1.netlify.app/)
-
 ## The build
 
 This portfolio is deployed with Github pages.
 
-**Languages:**</br>
-
-- Vanilla Javascript, HTML and CSS
-
-## Run this project
-
-You can clone the github repo and run it locally on your machine with a Live server extension.
-
-```bash
-git clone git@github.com:telecasteren/telecasteren.github.io
-```
+I'm a fan of keeping things simple, so this is a plain vanilla Javascript, HTML and CSS page.
 
 ### Contact:
 
 Email:</br>
 
-- [telecasteren](https://telecasteren.github.io/#contact)
+- [click here to send a message](https://telecasternilsen.com/#contact)
+- or use my email: nilsen.tele@gmail.com
 
 Else:
 
