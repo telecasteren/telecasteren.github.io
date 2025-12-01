@@ -33,19 +33,43 @@ export function cardsHtml(project) {
   boldText.textContent = project.title;
   h4.appendChild(boldText);
 
-  const p = document.createElement("p");
+  const p = document.createElement("div");
   p.id = "project-desc";
-  p.innerHTML = `${project.description}<br><br>
-<b><a href="${project.proj_url}" target="_blank">Go to ${project.title}</a></b><br/>
-or look at the code at the<br>
-<b><a href="${project.git_repo}" target="_blank">Github repository</a></b>`;
+  p.textContent = project.description;
+
+  const urlDiv = document.createElement("div");
+  urlDiv.className = "urlDiv";
+
+  const goToLiveProject = document.createElement("a");
+  goToLiveProject.id = "project-livesite";
+  goToLiveProject.href = project.proj_url;
+  goToLiveProject.target = "_blank";
+  goToLiveProject.innerHTML = `${project.title} Live`;
+
+  const goToGitRepo = document.createElement("a");
+  goToGitRepo.id = "project-repo";
+  goToGitRepo.href = project.git_repo;
+  goToGitRepo.target = "_blank";
+  goToGitRepo.innerHTML = `Github repository`;
 
   titleContainer.appendChild(h4);
   titleContainer.appendChild(p);
 
+  if (project.proj_url) {
+    urlDiv.appendChild(goToLiveProject);
+    urlDiv.appendChild(goToGitRepo);
+  } else {
+    urlDiv.appendChild(goToGitRepo);
+  }
+
+  titleContainer.appendChild(urlDiv);
   container.appendChild(titleContainer);
-  card.appendChild(recording);
-  card.appendChild(videoContainer);
+
+  if (project.proj_video) {
+    card.appendChild(recording);
+    card.appendChild(videoContainer);
+  }
+
   card.appendChild(img);
   card.appendChild(container);
 

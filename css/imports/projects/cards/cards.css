@@ -57,12 +57,21 @@ body.light .card:hover {
   font-weight: 300;
 }
 
-#project-desc a {
+.urlDiv {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+#project-livesite,
+#project-repo {
   color: var(--primary-text);
   font-weight: 600;
 }
 
-#project-desc a:hover {
+#project-livesite:hover,
+#project-repo:hover {
   color: var(--accent-color);
 }
 
