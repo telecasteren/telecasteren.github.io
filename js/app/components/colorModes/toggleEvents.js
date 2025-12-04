@@ -1,3 +1,4 @@
+import { setLanguage } from "/js/app/utils/translation/translator.js";
 import { displayCustomCursor } from "/js/app/components/customCursor/cursor.js";
 
 export function defaultColorMode() {
@@ -10,14 +11,20 @@ export function defaultColorMode() {
 
   if (!storedColorMode) {
     window.localStorage.setItem("colorMode", initialColorMode);
+    setLanguage(localStorage.getItem("lang") || "no");
   }
 
   displayCustomCursor(initialColorMode);
 
   if (toggleSwitch) {
-    toggleSwitch.innerText =
-      initialColorMode === "dark" ? "Turn the light on" : "Turn the light off";
+    // toggleSwitch.innerText =
+    //   initialColorMode === "dark" ? "Turn the light on" : "Turn the light off";
+    toggleSwitch.setAttribute(
+      "data-i18n",
+      initialColorMode === "dark" ? "dark" : "light"
+    );
   }
+  setLanguage(localStorage.getItem("lang") || "no");
 }
 
 export function switchColorMode() {
@@ -40,8 +47,13 @@ export function switchColorMode() {
   displayCustomCursor(nextColor);
 
   if (toggleSwitch) {
-    toggleSwitch.innerText =
-      nextColor === "dark" ? "Turn the light on" : "Turn the light off";
+    // toggleSwitch.innerText =
+    //   nextColor === "dark" ? "Turn the light on" : "Turn the light off";
+    toggleSwitch.setAttribute(
+      "data-i18n",
+      nextColor === "dark" ? "dark" : "light"
+    );
   }
+  setLanguage(localStorage.getItem("lang") || "no");
 }
 document.addEventListener("DOMContentLoaded", switchColorMode);

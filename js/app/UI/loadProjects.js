@@ -28,4 +28,6 @@ export function loadProjects() {
   hideCursor();
   renderProjects(projects);
   playVideo();
+
+  setLanguage(localStorage.getItem("lang") || "no");
 }

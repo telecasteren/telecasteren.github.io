@@ -24,4 +24,6 @@ export function loadContact() {
   colorModeToggle();
   hideCursor();
   displayContactPage();
+
+  setLanguage(localStorage.getItem("lang") || "no");
 }

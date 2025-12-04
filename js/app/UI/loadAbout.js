@@ -28,8 +28,5 @@ export function loadAbout() {
   welcomeMessage();
   aboutContent();
 
-  const textContainer = document.querySelector(".textContainer");
-  if (textContainer && !textContainer.classList.contains("hidden-scroll")) {
-    textContainer.scrollIntoView({ behavior: "smooth" });
-  }
+  setLanguage(localStorage.getItem("lang") || "no");
 }

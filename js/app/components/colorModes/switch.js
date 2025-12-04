@@ -9,8 +9,13 @@ export function colorModeToggle() {
 
   const toggleSwitch = document.createElement("div");
   toggleSwitch.classList.add("toggleSwitch", "glowBorderBtn");
-  toggleSwitch.innerText =
-    storedColorMode === "dark" ? "Turn the light on" : "Turn the light off";
+  toggleSwitch.id = "colorModeToggle";
+  toggleSwitch.setAttribute(
+    "data-i18n",
+    storedColorMode === "dark" ? "dark" : "light"
+  );
+  // toggleSwitch.innerText =
+  //   storedColorMode === "dark" ? "Turn the light on" : "Turn the light off";
 
   pageContent.prepend(toggleSwitch);
 
@@ -22,6 +27,7 @@ export function colorModeToggle() {
   if (pageContent) {
     toggleSwitch.addEventListener("click", () => {
       switchColorMode();
+      setLanguage(localStorage.getItem("lang") || "no");
     });
   }
 }

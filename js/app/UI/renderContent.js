@@ -41,6 +41,7 @@ export function renderContent() {
   aboutLi.addEventListener("click", () => {
     window.location.hash = "#about";
     loadAbout();
+    scrollToTitle("aboutTitle");
 
     closeMobileMenu();
   });

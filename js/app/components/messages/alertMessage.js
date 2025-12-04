@@ -29,7 +29,7 @@ export function alertMessage(text, type = "info", isHtml = false) {
     container.appendChild(alertMessage);
     alertMessage.focus();
   } else {
-    console.log("Alert container not found");
+    return null;
   }
 
   const close = () => {

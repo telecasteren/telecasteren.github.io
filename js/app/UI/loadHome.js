@@ -25,4 +25,6 @@ export function loadHome() {
   colorModeToggle();
   hideCursor();
   welcomeMessage();
+
+  setLanguage(localStorage.getItem("lang") || "no");
 }

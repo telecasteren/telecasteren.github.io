@@ -108,7 +108,7 @@ export function contactForm() {
 
   // Validate input values
   emailValidation(emailInput);
-  MinLengthValidation(nameInput, 4, "Name must be at least 4 characters.");
+  MinLengthValidation(nameInput, 3, "Name must be at least 3 characters.");
   MinLengthValidation(
     subjectInput,
     8,
