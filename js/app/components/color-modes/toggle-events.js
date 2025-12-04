@@ -1,5 +1,5 @@
 import { setLanguage } from "/js/app/utils/translation/translator.js";
-import { displayCustomCursor } from "/js/app/components/customCursor/cursor.js";
+import { displayCustomCursor } from "/js/app/components/custom-cursor/cursor.js";
 
 export function defaultColorMode() {
   const storedColorMode = window.localStorage.getItem("colorMode");

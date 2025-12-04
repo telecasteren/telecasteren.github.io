@@ -1,7 +1,7 @@
 // import { keywords } from "/resources/texts/keywords.js";
 // import { experience } from "/resources/texts/experience.js";
-import { skillsBtn } from "/js/app/landing/about/skillset/skillsBtn.js";
-import { closeAboutBtn } from "/js/app/eventListeners/landing/closeAbout.js";
+import { skillsBtn } from "/js/app/landing/about/skillset/skills-btn.js";
+import { closeAboutBtn } from "/js/app/event-listeners/landing/close-about.js";
 
 export function aboutContent() {
   const landingContent = document.querySelector(".page-content");

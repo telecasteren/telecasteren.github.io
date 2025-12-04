@@ -1,5 +1,5 @@
 import { skillSet } from "/resources/skills/skillset.js";
-import { skillRanges } from "/resources/skills/skillRanges.js";
+import { skillRanges } from "/resources/skills/skill-ranges.js";
 
 export function skillsetSection() {
   const aboutText = document.querySelector(".experienceContainer");

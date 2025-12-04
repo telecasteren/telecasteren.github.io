@@ -1,4 +1,4 @@
-import { toggleMenu } from "/js/app/eventListeners/mobileMenuEvents/toggleMenu.js";
+import { toggleMenu } from "/js/app/event-listeners/mobile-menu-events/toggle-menu.js";
 
 export function mobileMenuEvents() {
   const mobileMenu = document.querySelector(".mobileMenu");

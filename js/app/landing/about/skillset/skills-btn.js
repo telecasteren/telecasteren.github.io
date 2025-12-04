@@ -1,4 +1,4 @@
-import { skillsetSection } from "/js/app/landing/about/skillset/skillsetSection.js";
+import { skillsetSection } from "/js/app/landing/about/skillset/skillset-section.js";
 
 export function skillsBtn() {
   const aboutText = document.querySelector(".experienceContainer");

@@ -1,8 +1,8 @@
 import { pageContent, welcomeContent } from "/js/app/utils/constants.js";
-import { welcomeMessage } from "/js/app/landing/welcomeMessage.js";
-import { colorModeToggle } from "/js/app/components/colorModes/switch.js";
-import { hideCursor } from "/js/app/eventListeners/customCursor/hideCursor.js";
-import { aboutContent } from "/js/app/landing/about/aboutSection.js";
+import { welcomeMessage } from "/js/app/landing/welcome-message.js";
+import { colorModeToggle } from "/js/app/components/color-modes/switch.js";
+import { hideCursor } from "/js/app/event-listeners/custom-cursor/hide-cursor.js";
+import { aboutContent } from "/js/app/landing/about/about-section.js";
 
 export function loadAbout() {
   const homeLi = document.getElementById("homeLi");

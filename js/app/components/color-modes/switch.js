@@ -1,4 +1,4 @@
-import { switchColorMode } from "/js/app/components/colorModes/toggleEvents.js";
+import { switchColorMode } from "/js/app/components/color-modes/toggle-events.js";
 import { pageContent } from "/js/app/utils/constants.js";
 
 export function colorModeToggle() {

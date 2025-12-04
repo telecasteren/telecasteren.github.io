@@ -1,9 +1,9 @@
 import { loader, pageContent } from "/js/app/utils/constants.js";
-import { submitFormValidation } from "/js/app/eventListeners/submitFormValidation.js";
+import { submitFormValidation } from "/js/app/event-listeners/submit-form-validation.js";
 import {
   emailValidation,
   MinLengthValidation,
-} from "/js/app/utils/validation/inputValidation.js";
+} from "/js/app/utils/validation/input-validation.js";
 
 export function contactForm() {
   const contactSection = document.createElement("div");

@@ -1,9 +1,9 @@
 import { pageContent, portfolioContent } from "/js/app/utils/constants.js";
-import { renderProjects } from "/js/app/projects/cards/renderProjects.js";
-import { playVideo } from "/js/app/eventListeners/videoEvents.js";
+import { renderProjects } from "/js/app/projects/cards/render-projects.js";
+import { playVideo } from "/js/app/event-listeners/video-events.js";
 import projects from "/resources/projects/projects.js";
-import { colorModeToggle } from "/js/app/components/colorModes/switch.js";
-import { hideCursor } from "/js/app/eventListeners/customCursor/hideCursor.js";
+import { colorModeToggle } from "/js/app/components/color-modes/switch.js";
+import { hideCursor } from "/js/app/event-listeners/custom-cursor/hide-cursor.js";
 
 export function loadProjects() {
   const homeLi = document.getElementById("homeLi");

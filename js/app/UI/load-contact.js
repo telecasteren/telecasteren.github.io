@@ -1,7 +1,7 @@
 import { pageContent, portfolioContent } from "/js/app/utils/constants.js";
-import { colorModeToggle } from "/js/app/components/colorModes/switch.js";
-import { hideCursor } from "/js/app/eventListeners/customCursor/hideCursor.js";
-import { displayContactPage } from "/js/app/contact/displayContactPage.js";
+import { colorModeToggle } from "/js/app/components/color-modes/switch.js";
+import { hideCursor } from "/js/app/event-listeners/custom-cursor/hide-cursor.js";
+import { displayContactPage } from "/js/app/contact/display-contact-page.js";
 
 export function loadContact() {
   const homeLi = document.getElementById("homeLi");

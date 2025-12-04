@@ -1,8 +1,8 @@
-import { alertMessage } from "/js/app/components/messages/alertMessage.js";
+import { alertMessage } from "/js/app/components/messages/alert-message.js";
 import {
   userMessage,
   clearUserMessage,
-} from "/js/app/components/messages/userMessage.js";
+} from "/js/app/components/messages/user-message.js";
 
 export async function submitFormValidation() {
   const formElement = document.querySelector("form");

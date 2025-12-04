@@ -1,5 +1,5 @@
 import { mainSection } from "/js/app/utils/constants.js";
-import { mobileMenuEvents } from "/js/app/eventListeners/mobileMenuEvents/mobileMenuEvents.js";
+import { mobileMenuEvents } from "/js/app/event-listeners/mobile-menu-events/mobile-menu-events.js";
 
 export function menu() {
   const menuContainer = document.createElement("div");

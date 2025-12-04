@@ -1,9 +1,9 @@
-import { loadHome } from "/js/app/UI/loadHome.js";
-import { loadProjects } from "/js/app/UI/loadProjects.js";
-import { loadContact } from "/js/app/UI/loadContact.js";
-import { loadAbout } from "/js/app/UI/loadAbout.js";
-import { closeMobileMenu } from "/js/app/eventListeners/mobileMenuEvents/closeMobileMenu.js";
-import { scrollToTitle } from "/js/app/eventListeners/scrollToTitle.js";
+import { loadHome } from "/js/app/UI/load-home.js";
+import { loadProjects } from "/js/app/UI/load-projects.js";
+import { loadContact } from "/js/app/UI/load-contact.js";
+import { loadAbout } from "/js/app/UI/load-about.js";
+import { closeMobileMenu } from "/js/app/event-listeners/mobile-menu-events/close-mobile-menu.js";
+import { scrollToTitle } from "/js/app/event-listeners/scroll-to-title.js";
 
 export function renderContent() {
   const menuList = document.querySelector(".menuList");

@@ -3,7 +3,7 @@ import {
   pageContent,
   loader,
 } from "/js/app/utils/constants.js";
-import { displayLandingImage } from "/js/app/landing/displayLandingImage.js";
+import { displayLandingImage } from "/js/app/landing/display-landing-image.js";
 // import { landingTexts } from "/resources/texts/landing.js";
 
 export function welcomeMessage() {

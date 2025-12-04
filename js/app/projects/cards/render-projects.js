@@ -1,7 +1,7 @@
-import { userMessage } from "/js/app/utils/validation/userMessage.js";
+import { userMessage } from "/js/app/utils/validation/user-message.js";
 import { portfolioContent, pageContent } from "/js/app/utils/constants.js";
-import { cardsHtml } from "/js/app/projects/cards/cardsHtml.js";
-import { projectText } from "/js/app/projects/textContent.js";
+import { cardsHtml } from "/js/app/projects/cards/cards-html.js";
+import { projectText } from "/js/app/projects/text-content.js";
 
 export function renderProjects(projects) {
   pageContent.classList.remove("landing-content");

@@ -1,7 +1,7 @@
 import {
   displayFormErrorMessage,
   clearFormErrorMessage,
-} from "/js/app/components/messages/displayFormErrors.js";
+} from "/js/app/components/messages/display-form-errors.js";
 
 export function emailValidation(emailInput) {
   emailInput.addEventListener("input", () => {

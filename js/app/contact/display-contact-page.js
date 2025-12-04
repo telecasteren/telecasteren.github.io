@@ -1,6 +1,6 @@
 import { mainSection, pageContent } from "/js/app/utils/constants.js";
-import { contactForm } from "/js/app/contact/contactForm.js";
-import { contactPaths } from "/resources/texts/contactInfo.js";
+import { contactForm } from "/js/app/contact/contact-form.js";
+import { contactPaths } from "/resources/texts/contact-info.js";
 
 export function displayContactPage() {
   pageContent.classList.add("contact-page");

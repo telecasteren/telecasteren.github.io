@@ -1,4 +1,4 @@
-import { hideCursor } from "/js/app/eventListeners/customCursor/hideCursor.js";
+import { hideCursor } from "/js/app/event-listeners/custom-cursor/hide-cursor.js";
 
 export const moveCursor = document.addEventListener("mousemove", (e) => {
   const rocketCursor = document.querySelector(".rocketCursor");
