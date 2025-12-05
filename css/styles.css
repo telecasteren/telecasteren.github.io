@@ -1,35 +1,35 @@
 @import url(/css/imports/components/loader.css);
 @import url(/css/imports/components/cursor.css);
-@import url(/css/imports/utils/messages/errorMessage.css);
-@import url(/css/imports/utils/messages/userMessage.css);
-@import url(/css/imports/utils/messages/alertMessage.css);
-@import url(/css/imports/utils/messages/formErrors.css);
+@import url(/css/imports/utils/messages/error-message.css);
+@import url(/css/imports/utils/messages/user-message.css);
+@import url(/css/imports/utils/messages/alert-message.css);
+@import url(/css/imports/utils/messages/form-errors.css);
 @import url(/css/imports/components/navigation/menu.css);
-@import url(/css/imports/components/navigation/mobileMenu.css);
+@import url(/css/imports/components/navigation/mobile-menu.css);
 
 /* COLORMODE */
-@import url(/css/imports/utils/allColors.css);
+@import url(/css/imports/utils/theme-variables.css);
 
 /* BUTTONS */
-@import url(/css/imports/components/buttons/glowBorderBtn.css);
+@import url(/css/imports/components/buttons/glow-border-btn.css);
 @import url(/css/imports/components/buttons/switch.css);
-@import url(/css/imports/components/buttons/skillsButton.css);
+@import url(/css/imports/components/buttons/skills-button.css);
 
 /* HOME */
 @import url(/css/imports/landing.css);
 
 /* PROJECTS */
-@import url(/css/imports/projects/textContent.css);
+@import url(/css/imports/projects/text-content.css);
 @import url(/css/imports/projects/cards/cards.css);
 @import url(/css/imports/projects/cards/video.css);
 
 /* CONTACT */
-@import url(/css/imports/contact/contactSection.css);
+@import url(/css/imports/contact/contact-section.css);
 
 /* ABOUT */
-@import url(/css/imports/about/aboutSection.css);
+@import url(/css/imports/about/about-section.css);
 @import url(/css/imports/about/skillset/skillset.css);
-@import url(/css/imports/about/skillset/rangeInputs.css);
+@import url(/css/imports/about/skillset/range-inputs.css);
 
 html,
 body {
@@ -78,7 +78,7 @@ body.dark ::selection {
   border: none;
   border-radius: 2px;
   cursor: pointer;
-  background-color: var(--card-container);
+  background-color: var(--accent-color);
   transition: 0.3s;
 }
 
