@@ -11,12 +11,10 @@ export function projectText() {
   const text = document.createElement("p");
   text.id = "featuredText";
   text.setAttribute("data-i18n", "featuredText");
-  // text.innerHTML = `I've put together some of my projects. <span>Hover over the images to get a sneak peak!</span>`;
 
   const link = document.createElement("p");
   link.id = "seeMoreText";
   link.setAttribute("data-i18n", "seeMoreText");
-  // link.innerHTML = `You can find more on <a class="featuredLink" href="https://github.com/telecasteren?tab=repositories" target="_blank">GitHub</a>.`;
 
   textContainer.appendChild(title);
   textContainer.appendChild(text);

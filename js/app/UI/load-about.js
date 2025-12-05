@@ -5,10 +5,10 @@ import { hideCursor } from "/js/app/event-listeners/custom-cursor/hide-cursor.js
 import { aboutContent } from "/js/app/landing/about/about-section.js";
 
 export function loadAbout() {
-  const homeLi = document.getElementById("homeLi");
-  const projectsLi = document.getElementById("projectsLi");
-  const contactLi = document.getElementById("contactLi");
-  const aboutLi = document.getElementById("aboutLi");
+  const homeLi = document.getElementById("navHome");
+  const projectsLi = document.getElementById("navProjects");
+  const contactLi = document.getElementById("navContact");
+  const aboutLi = document.getElementById("navAbout");
 
   pageContent.classList.add("landing-content");
   pageContent.classList.remove("contact-page");

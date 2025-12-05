@@ -77,12 +77,10 @@ export const contactTexts = {
   en: {
     subTitle: `Find me at the locations listed below,
     or send me an email with the form and I'll be in touch.`,
-    // otherElements: "",
   },
   no: {
     subTitle: `Finn meg på plattformene oppført nedenfor,
     eller send meg en e-post gjennom skjemaet, så tar jeg kontakt.`,
-    // otherElements: "",
   },
 };
 
@@ -100,4 +98,19 @@ export const projectTexts = {
 export const switchTexts = {
   en: { dark: "Turn the light on", light: "Turn the light off" },
   no: { dark: "Skru på lyset", light: "Skru av lyset" },
+};
+
+export const navItems = {
+  en: {
+    navHome: "HOME",
+    navAbout: "ABOUT",
+    navProjects: "PROJECTS",
+    navContact: "CONTACT",
+  },
+  no: {
+    navHome: "HJEM",
+    navAbout: "OM MEG",
+    navProjects: "PROSJEKTER",
+    navContact: "KONTAKT",
+  },
 };

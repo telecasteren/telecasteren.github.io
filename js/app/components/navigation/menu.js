@@ -18,23 +18,23 @@ export function menu() {
 
   const home = document.createElement("li");
   home.classList.add("nav-li", "active");
-  home.id = "homeLi";
-  home.textContent = "HOME";
+  home.id = "navHome";
+  home.setAttribute("data-i18n", "navHome");
 
   const about = document.createElement("li");
   about.classList.add("nav-li");
-  about.id = "aboutLi";
-  about.textContent = "ABOUT";
+  about.id = "navAbout";
+  about.setAttribute("data-i18n", "navAbout");
 
   const projects = document.createElement("li");
   projects.classList.add("nav-li");
-  projects.id = "projectsLi";
-  projects.textContent = "PROJECTS";
+  projects.id = "navProjects";
+  projects.setAttribute("data-i18n", "navProjects");
 
   const contact = document.createElement("li");
   contact.classList.add("nav-li");
-  contact.id = "contactLi";
-  contact.textContent = "CONTACT";
+  contact.id = "navContact";
+  contact.setAttribute("data-i18n", "navContact");
 
   menuList.appendChild(home);
   menuList.appendChild(about);
@@ -45,4 +45,6 @@ export function menu() {
   mainSection.prepend(menuContainer);
 
   mobileMenuEvents();
+
+  setLanguage(localStorage.getItem("lang") || "no");
 }

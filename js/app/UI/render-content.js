@@ -9,10 +9,10 @@ export function renderContent() {
   const menuList = document.querySelector(".menuList");
   if (!menuList) return;
 
-  const homeLi = document.getElementById("homeLi");
-  const projectsLi = document.getElementById("projectsLi");
-  const contactLi = document.getElementById("contactLi");
-  const aboutLi = document.getElementById("aboutLi");
+  const homeLi = document.getElementById("navHome");
+  const projectsLi = document.getElementById("navProjects");
+  const contactLi = document.getElementById("navContact");
+  const aboutLi = document.getElementById("navAbout");
   const keywords = document.getElementById("landingMessage");
 
   homeLi.addEventListener("click", () => {
