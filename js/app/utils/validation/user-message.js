@@ -3,8 +3,7 @@ export function userMessage(
   { className = "errorWrapper", container = null } = {}
 ) {
   if (message === null) {
-    console.error("Error message is missing:", message);
-    return null;
+    throw new Error("Error message is missing:", message);
   }
 
   const wrapper = document.createElement("div");

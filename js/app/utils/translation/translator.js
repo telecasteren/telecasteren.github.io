@@ -6,6 +6,7 @@ import {
   projectTexts,
   switchTexts,
   navItems,
+  titles,
 } from "/resources/texts/translations.js";
 
 const setTranslations = (lang) => {
@@ -16,6 +17,7 @@ const setTranslations = (lang) => {
   const selectedProjectTexts = projectTexts[lang];
   const selectedSwitchTexts = switchTexts[lang];
   const selectedNavItems = navItems[lang];
+  const selectedTitles = titles[lang];
 
   document.querySelectorAll("[data-i18n]").forEach((el) => {
     const key = el.getAttribute("data-i18n");
@@ -28,6 +30,7 @@ const setTranslations = (lang) => {
       selectedProjectTexts[key] ||
       selectedSwitchTexts[key] ||
       selectedNavItems[key] ||
+      selectedTitles[key] ||
       key;
   });
 };

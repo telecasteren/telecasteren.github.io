@@ -114,3 +114,18 @@ export const navItems = {
     navContact: "KONTAKT",
   },
 };
+
+export const titles = {
+  en: {
+    aboutTitle: "About me",
+    experienceTitle: "Background",
+    projectTitle: "Featured projects",
+    contactTitle: "Get in touch",
+  },
+  no: {
+    aboutTitle: "Om meg",
+    experienceTitle: "Bakgrunn",
+    projectTitle: "Utvalgte prosjekter",
+    contactTitle: "Ta kontakt",
+  },
+};

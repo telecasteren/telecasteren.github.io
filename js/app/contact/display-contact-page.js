@@ -15,8 +15,6 @@ export function displayContactPage() {
   const subTitle = document.createElement("p");
   subTitle.id = "sub-title";
   subTitle.setAttribute("data-i18n", "subTitle");
-  // subTitle.innerText = `Find me at the locations listed below,
-  // or send me an email with the form and I'll be in touch.`;
 
   const list = document.createElement("ul");
   list.id = "contactList";

@@ -14,8 +14,6 @@ export function colorModeToggle() {
     "data-i18n",
     storedColorMode === "dark" ? "dark" : "light"
   );
-  // toggleSwitch.innerText =
-  //   storedColorMode === "dark" ? "Turn the light on" : "Turn the light off";
 
   pageContent.prepend(toggleSwitch);
 

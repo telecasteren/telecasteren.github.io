@@ -17,8 +17,6 @@ export function defaultColorMode() {
   displayCustomCursor(initialColorMode);
 
   if (toggleSwitch) {
-    // toggleSwitch.innerText =
-    //   initialColorMode === "dark" ? "Turn the light on" : "Turn the light off";
     toggleSwitch.setAttribute(
       "data-i18n",
       initialColorMode === "dark" ? "dark" : "light"
@@ -47,8 +45,6 @@ export function switchColorMode() {
   displayCustomCursor(nextColor);
 
   if (toggleSwitch) {
-    // toggleSwitch.innerText =
-    //   nextColor === "dark" ? "Turn the light on" : "Turn the light off";
     toggleSwitch.setAttribute(
       "data-i18n",
       nextColor === "dark" ? "dark" : "light"

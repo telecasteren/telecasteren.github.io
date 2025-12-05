@@ -1,5 +1,3 @@
-// import { keywords } from "/resources/texts/keywords.js";
-// import { experience } from "/resources/texts/experience.js";
 import { skillsBtn } from "/js/app/landing/about/skillset/skills-btn.js";
 import { closeAboutBtn } from "/js/app/event-listeners/landing/close-about.js";
 
@@ -11,21 +9,12 @@ export function aboutContent() {
 
   const textContainer = document.createElement("section");
   textContainer.classList.add("textContainer");
-  // textContainer.classList.add("textContainer", "scroll-to-el");
 
   const aboutTitle = document.createElement("h4");
   aboutTitle.id = "aboutTitle";
   aboutTitle.classList.add("aboutTitle", "hidden-scroll");
-  aboutTitle.innerText = "About me";
+  aboutTitle.setAttribute("data-i18n", "aboutTitle");
 
-  // keywords.forEach((textContent) => {
-  //   const textElement = document.createElement("p");
-  //   textElement.id = "aboutText";
-  //   textElement.className = textContent.className;
-  //   textElement.classList.add("hidden-scroll");
-  //   textElement.innerHTML = textContent.content;
-  //   textContainer.appendChild(textElement);
-  // });
   const playfulText = document.createElement("p");
   playfulText.id = "playfulText";
   playfulText.setAttribute("data-i18n", "playfulText");
@@ -48,15 +37,7 @@ export function aboutContent() {
   const experienceTitle = document.createElement("h4");
   experienceTitle.id = "experienceTitle";
   experienceTitle.className = "aboutTitle";
-  experienceTitle.innerText = "Background";
-
-  // experience.forEach((text) => {
-  //   const textElement = document.createElement("p");
-  //   textElement.id = "aboutText";
-  //   textElement.className = text.className;
-  //   textElement.innerHTML = text.content;
-  //   experienceContainer.appendChild(textElement);
-  // });
+  experienceTitle.setAttribute("data-i18n", "experienceTitle");
 
   const experience1 = document.createElement("p");
   experience1.id = "experience1";

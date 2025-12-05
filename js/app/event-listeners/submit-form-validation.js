@@ -41,8 +41,8 @@ export async function submitFormValidation() {
           );
         }
       } catch (error) {
-        console.error("Form submission error:", error);
         userMessage("error", "Well, that was embarrassing.. Please try again.");
+        throw error;
       }
     } else {
       userMessage(
