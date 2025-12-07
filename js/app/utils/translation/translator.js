@@ -1,13 +1,13 @@
+import { landingTexts } from "/resources/translations/landing.js";
+import { keywords } from "/resources/translations/keywords.js";
+import { experience } from "/resources/translations/experience.js";
+import { contactTexts } from "/resources/translations/contact-info.js";
+import { projectTexts } from "/resources/translations/projects.js";
 import {
-  landingTexts,
-  keywords,
-  experience,
-  contactTexts,
-  projectTexts,
   switchTexts,
   navItems,
   titles,
-} from "/resources/texts/translations.js";
+} from "/resources/translations/general-elements.js";
 
 const setTranslations = (lang) => {
   const selectedLanding = landingTexts[lang];

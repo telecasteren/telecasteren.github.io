@@ -6,7 +6,7 @@ export function projectText() {
 
   const title = document.createElement("h1");
   title.id = "featuredTitle";
-  title.innerText = "Featured projects";
+  title.setAttribute("data-i18n", "featuredTitle");
 
   const text = document.createElement("p");
   text.id = "featuredText";

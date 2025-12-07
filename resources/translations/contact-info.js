@@ -8,3 +8,14 @@ export const contactPaths = [
     icon: ` <i class="fa-brands fa-linkedin fa-2xl"></i>`,
   },
 ];
+
+export const contactTexts = {
+  en: {
+    subTitle: `Find me at the locations listed below,
+    or send me an email with the form and I'll be in touch.`,
+  },
+  no: {
+    subTitle: `Finn meg på plattformene oppført nedenfor,
+    eller send meg en e-post gjennom skjemaet, så tar jeg kontakt.`,
+  },
+};

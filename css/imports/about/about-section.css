@@ -23,6 +23,10 @@
   font-weight: 500;
 }
 
+.subtitle {
+  font-weight: 600;
+}
+
 .experienceText i {
   font-weight: lighter;
 }

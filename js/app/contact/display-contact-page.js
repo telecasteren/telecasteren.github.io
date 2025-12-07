@@ -1,6 +1,6 @@
 import { mainSection, pageContent } from "/js/app/utils/constants.js";
 import { contactForm } from "/js/app/contact/contact-form.js";
-import { contactPaths } from "/resources/texts/contact-info.js";
+import { contactPaths } from "/resources/translations/contact-info.js";
 
 export function displayContactPage() {
   pageContent.classList.add("contact-page");
@@ -10,7 +10,7 @@ export function displayContactPage() {
 
   const title = document.createElement("h1");
   title.id = "contactTitle";
-  title.innerText = "Contact";
+  title.setAttribute("data-i18n", "contactTitle");
 
   const subTitle = document.createElement("p");
   subTitle.id = "sub-title";
