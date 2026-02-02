@@ -2,6 +2,10 @@ import { mainSection } from "/js/app/utils/constants.js";
 import { mobileMenuEvents } from "/js/app/event-listeners/mobile-menu-events/mobile-menu-events.js";
 
 export function menu() {
+  const topIntro = document.createElement("div");
+  topIntro.className = "top-intro";
+  topIntro.setAttribute("data-i18n", "intro");
+
   const menuContainer = document.createElement("div");
   menuContainer.className = "menuContainer";
 
@@ -43,6 +47,7 @@ export function menu() {
   menuContainer.appendChild(mobileMenu);
   menuContainer.appendChild(menuList);
   mainSection.prepend(menuContainer);
+  mainSection.prepend(topIntro);
 
   mobileMenuEvents();
 

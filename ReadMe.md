@@ -18,15 +18,22 @@ Trained in frontend, but too curious to not go for fullstack. I love solving pro
 - HTML / CSS
 - MYSQL / SQL
 
+- Next.js
+- Express.js
+
 - React
 - Tanstack
 - Tailwind
+- MUI
 
 **Tools**
 
 - Prisma
 - Neon
 - Docker
+- Bunny Storage
+- Firebase
+- Vercel
 
 ### Contact
 

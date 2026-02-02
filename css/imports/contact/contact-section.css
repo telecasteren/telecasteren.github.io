@@ -29,6 +29,7 @@ input {
 
 input,
 #message {
+  font-family: "Poppins";
   cursor: pointer;
   filter: brightness(95%);
   border-radius: 2px;
@@ -51,7 +52,10 @@ input[type="Submit"] {
   width: 80px;
   height: auto;
   color: white;
-  transition: transform 0.25s, box-shadow 0.25s ease-in-out;
+  font-weight: 600;
+  transition:
+    transform 0.25s,
+    box-shadow 0.25s ease-in-out;
 }
 
 input[type="Submit"]:hover {

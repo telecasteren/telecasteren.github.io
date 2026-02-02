@@ -1,3 +1,12 @@
+.top-intro {
+  font-size: 0.9rem;
+  color: var(--primary-text);
+  text-align: start;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  font-style: italic;
+}
+
 .menuList {
   display: flex;
   gap: 40px;
@@ -6,6 +15,61 @@
   justify-content: center;
   align-items: center;
   width: fit-content;
+}
+
+.menuContainer {
+  position: relative;
+  border-bottom: 20px solid var(--border-accent);
+  width: 100%;
+  margin: 0 auto;
+}
+
+.menuContainer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 80%;
+  height: 1px;
+  background: var(--topborder-base);
+  transform: translateX(-50%);
+}
+
+.menuContainer::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 80%;
+  height: 1px;
+  transform: translateX(-50%);
+  background: linear-gradient(
+      90deg,
+      var(--topborder-paint),
+      var(--topborder-paint)
+    )
+    no-repeat;
+  background-size: 100% 100%;
+  filter: drop-shadow(0 0 6px var(--topborder-glow));
+}
+
+.menuContainer.animate-once::after {
+  background-size: 0% 100%;
+  animation: paintSweep 2s ease-out forwards;
+}
+
+@keyframes paintSweep {
+  to {
+    background-size: 100% 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .menuContainer.animate-once::after {
+    animation: none;
+    background-size: 100% 100%;
+    filter: none;
+  }
 }
 
 .nav-li {
@@ -48,7 +112,14 @@
 @media screen and (max-width: 778px) {
   .menuContainer {
     position: relative;
+    border: none;
     top: 0;
+  }
+
+  .menuContainer::after,
+  .menuContainer::before,
+  .top-intro {
+    display: none;
   }
 
   .mobileMenu {

@@ -1,5 +1,4 @@
 import { setLanguage } from "/js/app/utils/translation/translator.js";
-import { displayCustomCursor } from "/js/app/components/custom-cursor/cursor.js";
 
 export function defaultColorMode() {
   const storedColorMode = window.localStorage.getItem("colorMode");
@@ -14,12 +13,10 @@ export function defaultColorMode() {
     setLanguage(localStorage.getItem("lang") || "no");
   }
 
-  displayCustomCursor(initialColorMode);
-
   if (toggleSwitch) {
     toggleSwitch.setAttribute(
       "data-i18n",
-      initialColorMode === "dark" ? "dark" : "light"
+      initialColorMode === "dark" ? "dark" : "light",
     );
   }
   setLanguage(localStorage.getItem("lang") || "no");
@@ -30,7 +27,7 @@ export function switchColorMode() {
   const colorModes = ["light", "dark"];
 
   const currentColor = colorModes.find((mode) =>
-    document.body.classList.contains(mode)
+    document.body.classList.contains(mode),
   );
 
   const nextColor = currentColor === "dark" ? "light" : "dark";
@@ -42,12 +39,11 @@ export function switchColorMode() {
   document.body.classList.add(nextColor);
 
   window.localStorage.setItem("colorMode", nextColor);
-  displayCustomCursor(nextColor);
 
   if (toggleSwitch) {
     toggleSwitch.setAttribute(
       "data-i18n",
-      nextColor === "dark" ? "dark" : "light"
+      nextColor === "dark" ? "dark" : "light",
     );
   }
   setLanguage(localStorage.getItem("lang") || "no");

@@ -25,3 +25,14 @@ window.addEventListener("mousemove", moveCursor);
 // URL PATH ON HASHCHANGE
 setPageTitles();
 window.addEventListener("hashchange", setPageTitles);
+
+document.addEventListener("DOMContentLoaded", () => {
+  const container = document.querySelector(".menuContainer");
+  if (!container) return;
+
+  const alreadyRan = sessionStorage.getItem("animateTopBorder");
+  if (!alreadyRan) {
+    container.classList.add("animate-once");
+    sessionStorage.setItem("animateTopBorder", "1");
+  }
+});

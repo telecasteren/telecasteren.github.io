@@ -1,6 +1,9 @@
 #project-textContainer {
-  margin: 0 0 0 80px;
   padding-top: 20px;
+}
+
+.projects-content {
+  padding: 0 150px 0 150px;
 }
 
 #featuredTitle {
@@ -34,5 +37,9 @@
 @media screen and (max-width: 891px) {
   #project-textContainer {
     margin: 0 20px 0 20px;
+  }
+
+  .projects-content {
+    padding: 0 20px 0 20px;
   }
 }

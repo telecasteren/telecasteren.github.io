@@ -2,9 +2,13 @@
   width: 180px;
   padding: 10px;
   text-align: center;
+  justify-self: center;
   cursor: pointer;
   border: 2px solid var(--field-border);
-  transition: border-color 0.25s, transform 0.3s, box-shadow 0.25s ease-in-out;
+  transition:
+    border-color 0.25s,
+    transform 0.3s,
+    box-shadow 0.25s ease-in-out;
   animation: glow-border 2s infinite alternate;
 }
 

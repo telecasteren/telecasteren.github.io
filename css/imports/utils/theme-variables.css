@@ -27,6 +27,11 @@ body.dark {
   --box-sh-dark2: #b532b5;
   --box-sh-dark3: #ff4dff;
   --box-sh-dark4: #660066;
+
+  --border-accent: #921a9285;
+  --topborder-base: #000000b4;
+  --topborder-paint: var(--primary-text);
+  --topborder-glow: rgba(255, 255, 255, 0.8);
 }
 
 body.light {
@@ -43,4 +48,9 @@ body.light {
   --box-sh-light2: #9ef01a;
   --box-sh-light3: #38b000;
   --box-sh-light4: #006400;
+
+  --border-accent: #70e000d1;
+  --topborder-base: #00000002;
+  --topborder-paint: var(--primary-text);
+  --topborder-glow: rgba(0, 0, 0, 0.4);
 }

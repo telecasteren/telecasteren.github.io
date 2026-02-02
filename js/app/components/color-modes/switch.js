@@ -12,7 +12,7 @@ export function colorModeToggle() {
   toggleSwitch.id = "colorModeToggle";
   toggleSwitch.setAttribute(
     "data-i18n",
-    storedColorMode === "dark" ? "dark" : "light"
+    storedColorMode === "dark" ? "dark" : "light",
   );
 
   pageContent.prepend(toggleSwitch);

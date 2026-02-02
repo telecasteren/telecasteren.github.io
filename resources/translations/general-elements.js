@@ -3,6 +3,15 @@ export const switchTexts = {
   no: { dark: "Skru på lyset", light: "Skru av lyset" },
 };
 
+export const introText = {
+  en: {
+    intro: "TELE CASTER NILSEN - frontend dev and coffee nerd.",
+  },
+  no: {
+    intro: "TELE CASTER NILSEN - frontend utvikler og kaffenerd.",
+  },
+};
+
 export const navItems = {
   en: {
     navHome: "HOME",

@@ -7,6 +7,7 @@ import {
   switchTexts,
   navItems,
   titles,
+  introText,
 } from "/resources/translations/general-elements.js";
 
 const setTranslations = (lang) => {
@@ -16,6 +17,7 @@ const setTranslations = (lang) => {
   const selectedContactTexts = contactTexts[lang];
   const selectedProjectTexts = projectTexts[lang];
   const selectedSwitchTexts = switchTexts[lang];
+  const selectedIntroText = introText[lang];
   const selectedNavItems = navItems[lang];
   const selectedTitles = titles[lang];
 
@@ -29,6 +31,7 @@ const setTranslations = (lang) => {
       selectedContactTexts[key] ||
       selectedProjectTexts[key] ||
       selectedSwitchTexts[key] ||
+      selectedIntroText[key] ||
       selectedNavItems[key] ||
       selectedTitles[key] ||
       key;
