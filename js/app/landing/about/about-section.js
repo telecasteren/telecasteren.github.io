@@ -57,7 +57,7 @@ export function aboutContent() {
 
   const closeAbout = document.createElement("div");
   closeAbout.id = "closeAbout";
-  closeAbout.innerHTML = `<p>UP TOP</p><i class="fa-solid fa-arrow-up"></i>`;
+  closeAbout.innerHTML = `<p>Go Home</p><i class="fa-solid fa-arrow-up"></i>`;
 
   textContainer.prepend(aboutTitle);
   experienceContainer.prepend(experienceTitle);
