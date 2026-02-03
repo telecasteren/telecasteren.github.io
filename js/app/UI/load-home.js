@@ -1,7 +1,6 @@
 import { pageContent, welcomeContent } from "/js/app/utils/constants.js";
 import { welcomeMessage } from "/js/app/landing/welcome-message.js";
 import { colorModeToggle } from "/js/app/components/color-modes/switch.js";
-import { hideCursor } from "/js/app/event-listeners/custom-cursor/hide-cursor.js";
 
 export function loadHome() {
   const homeLi = document.getElementById("navHome");
@@ -23,7 +22,6 @@ export function loadHome() {
   welcomeContent.innerHTML = "";
 
   colorModeToggle();
-  hideCursor();
   welcomeMessage();
 
   setLanguage(localStorage.getItem("lang") || "no");

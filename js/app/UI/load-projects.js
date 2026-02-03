@@ -3,7 +3,6 @@ import { renderProjects } from "/js/app/projects/cards/render-projects.js";
 import { playVideo } from "/js/app/event-listeners/video-events.js";
 import projects from "/resources/projects/projects.js";
 import { colorModeToggle } from "/js/app/components/color-modes/switch.js";
-import { hideCursor } from "/js/app/event-listeners/custom-cursor/hide-cursor.js";
 
 export function loadProjects() {
   const homeLi = document.getElementById("navHome");
@@ -25,7 +24,6 @@ export function loadProjects() {
   pageContent.innerHTML = "";
 
   colorModeToggle();
-  hideCursor();
   renderProjects(projects);
   playVideo();
 

@@ -1,7 +1,6 @@
 import { pageContent, welcomeContent } from "/js/app/utils/constants.js";
 import { welcomeMessage } from "/js/app/landing/welcome-message.js";
 import { colorModeToggle } from "/js/app/components/color-modes/switch.js";
-import { hideCursor } from "/js/app/event-listeners/custom-cursor/hide-cursor.js";
 import { aboutContent } from "/js/app/landing/about/about-section.js";
 
 export function loadAbout() {
@@ -24,7 +23,6 @@ export function loadAbout() {
   welcomeContent.innerHTML = "";
 
   colorModeToggle();
-  hideCursor();
   welcomeMessage();
   aboutContent();
 
