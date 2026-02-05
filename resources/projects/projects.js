@@ -9,20 +9,20 @@ const projects = [
     git_repo:
       "https://github.com/telecasteren/social-app-noroff/blob/main/ReadMe.md",
     description:
-      "A social media platform for foodies. Share favourite recipes and discover.",
+      "A social media platform. >>JavaScript, Tailwind CSS and REST API.",
   },
 
   {
     id: "project2",
     title: "Bits Auctions",
-    img_src: "/resources/images/bits-auctions-full-white.png",
+    img_src: "/resources/images/bits-auctions-landing.png",
     img_alt: "An auction platform",
     proj_url: "https://telecasternilsen.com/bits-auctions/",
     proj_video: "",
     git_repo:
       "https://github.com/telecasteren/bits-auctions/blob/main/README.md",
     description:
-      "A platform where you can manage your listings, monitor and bid on items.",
+      "A modern auction site. >>TypeScript, Vite, Tailwind CSS and REST API.",
   },
 
   {
@@ -34,7 +34,8 @@ const projects = [
     proj_video: "",
     git_repo:
       "https://github.com/telecasteren/music_player/blob/main/README.md",
-    description: "Music player desktop application.",
+    description:
+      "Native music player application. >>React, Typescript, Tauri, Tailwind CSS.",
   },
 
   {
@@ -48,7 +49,7 @@ const projects = [
     git_repo:
       "https://github.com/telecasteren/project-exam-1-tele-c/blob/main/README.md",
     description:
-      "Unwired is a tech blog that blends personal experiences with industry insights—served with a satirical twist.",
+      "A blog site with a two-way integration with Wordpress. >>Javascript, HTML and CSS.",
   },
 
   {
@@ -60,7 +61,7 @@ const projects = [
     proj_video:
       "/resources/videos/Gamehub-Recording 2025-02-18 at 17.34.43.mp4",
     git_repo: "https://github.com/telecasteren/gamehub/blob/main/ReadMe.md",
-    description: "An e-commerce website for the gaming community.",
+    description: "An e-commerce gaming website. >>Javascript, HTML and CSS.",
   },
 
   {
@@ -73,8 +74,7 @@ const projects = [
       "/resources/videos/SemProj1-Recording 2025-02-18 at 17.36.06.mp4",
     git_repo:
       "https://github.com/telecasteren/community-science-museum/blob/main/README.md",
-    description:
-      "A website for a family museum. Built with pure vanilla HTML and CSS.",
+    description: "A family museum website. >>Vanilla HTML and CSS.",
   },
 ];
 

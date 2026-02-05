@@ -1,12 +1,12 @@
 # Hi! 👾 I'm Tele and this is my website
 
-![image](resources/images/portfolio-landing.webp)
+![image](resources/images/portfolio-front.png)
 
 **Live site:** [telecasteren](https://telecasternilsen.com)
 
 ## The build
 
-I'm a fan of keeping things simple, so this site is built on good old vanilla Javascript, HTML and CSS.
+I'm a fan of keeping things simple, so this site is built on good old vanilla Javascript, HTML and CSS. The translations are straightforward and kept [here](resources/translations), since the site itself is very small I haven't used any translation libraries. You'll find the translator function [here](js/app/utils/translation/translator.js).
 
 ### My work
 
