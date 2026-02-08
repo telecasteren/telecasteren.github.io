@@ -27,7 +27,7 @@ const projects = [
 
   {
     id: "project3",
-    title: "Music Catalogue",
+    title: "GrammoFon",
     img_src: "/resources/images/music-catalogue.png",
     img_alt: "A music catalogue",
     proj_url: "",
@@ -35,7 +35,7 @@ const projects = [
     git_repo:
       "https://github.com/telecasteren/music-catalogue-app/blob/main/README.md",
     description:
-      "A catalogue for tracking my record collection. >>REACT, Typescript, MUI, Prisma and Neon database.",
+      "A music catalogue I built to track my record collection. >>REACT, Typescript, MUI, Prisma and Neon database.",
   },
 
   {
@@ -48,7 +48,7 @@ const projects = [
     git_repo:
       "https://github.com/telecasteren/music_player/blob/main/README.md",
     description:
-      "Native music player application. >>React, Typescript, Tauri, Tailwind CSS.",
+      "Native music player application letting you upload music. >>React, Typescript, Tauri, Tailwind CSS.",
   },
 
   {
